@@ -1,0 +1,58 @@
+Creating your own buy/sell signals: Coding up & visualising MACD indicators
+url - https://tng-daryl.medium.com/creating-your-own-buy-sell-signals-coding-up-visualising-macd-indicators-239036c57f29
+
+
+Automated fundamental analysis:
+url - https://github.com/faizancodes/Automated-Fundamental-Analysis
+
+How To Perform Fundamental Analysis Of Stocks Using Python
+url - https://readmedium.com/en/https:/medium.datadriveninvestor.com/how-to-perform-fundamental-analysis-of-stocks-using-python-cba85f04f10
+
+Fundamental Analysis of Stocks using Python
+url - https://medium.com/geekculture/fundamental-analysis-of-stocks-using-python-d5ad050e6372
+
+
+Fundamental Analysis of Stock using Python — Operating Expenses
+url - https://readmedium.com/en/https:/medium.com/the-handbook-of-coding-in-finance/fundamental-analysis-of-stock-using-python-operating-expenses-c839ac2ca05a
+
+Basic Stock Data Analysis Using Jupyter Notebook
+url - https://medium.com/@eva21fachria/basic-stock-data-analysis-using-jupyter-notebook-3e9e1764637e
+
+
+url - https://github.com/LastAncientOne/SimpleStockAnalysisPython/tree/master
+
+
+Backtesting Candlestick Patterns in Python
+url - https://greyhoundanalytics.com/blog/backtesting-candlestick-patterns-in-python/
+
+Detection of price support and resistance levels in Python
+url - https://readmedium.com/en/https:/towardsdatascience.com/detection-of-price-support-and-resistance-levels-in-python-baedc44c34c9
+
+
+
+How to identify Japanese candlesticks patterns in Python
+url - https://readmedium.com/en/https:/towardsdatascience.com/how-to-identify-japanese-candlesticks-patterns-in-python-b835d1cc72f7
+
+Detect candlestick patterns using TA-Lib and Python
+url - https://www.conorjohanlon.com/detect-candlestick-patterns-using-ta-lib-and-python/
+
+Algorithmically Drawing Stock Market Trend Lines
+url - https://readmedium.com/en/https:/wire.insiderfinance.io/algorithmically-drawing-stock-market-trend-lines-ecb5ef6d112a
+
+
+A Surprising Way to Smoothen a Time Series — Solving the Heat Equation!
+url - https://readmedium.com/a-surprising-way-to-smoothen-a-time-series-solving-the-heat-equation-c73082dd9cd7
+
+mplfinance examples
+url - https://github.com/DanielGoldfarb/mplfinance/tree/master/examples
+
+
+squeeze momentum
+url - https://readmedium.com/implementing-the-most-popular-indicator-on-tradingview-using-python-239d579412ab
+
+Easy and Interactive Candlestick Charts in Python
+url - https://readmedium.com/en/https:/medium.com/@dannygrovesn7/using-streamlit-and-plotly-to-create-interactive-candlestick-charts-a2a764ad0d8e
+
+normal distribution
+https://github.com/vaitybharati/P11.-Normal-Distribution-of-Stocks/blob/main/P11.%20Normal%20Distribution%20of%20Stocks.ipynb
+
