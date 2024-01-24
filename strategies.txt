@@ -4,6 +4,13 @@
 - catalyst: bulk block deals / short selling / news / events / new products / results
 - Proxy Investing - Invest in shovels which is made for digging gold
 
+- Mean reversion
+- Hurst Exponent
+- Random Walk
+- Monte Carlo Distribution
+- Normal Distribution
+- Markov chain analysis and prediction
+- Moving Average Optimization
 
 
 https://www.kaggle.com/code/lylebegbie/27-graphs-that-explain-the-world-s-economy

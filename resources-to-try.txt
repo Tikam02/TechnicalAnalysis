@@ -56,3 +56,10 @@ url - https://readmedium.com/en/https:/medium.com/@dannygrovesn7/using-streamlit
 normal distribution
 https://github.com/vaitybharati/P11.-Normal-Distribution-of-Stocks/blob/main/P11.%20Normal%20Distribution%20of%20Stocks.ipynb
 
+
+python client for FRED API
+https://github.com/avelkoski/FRB
+
+google finance
+https://github.com/hongtaocai/googlefinance
+
