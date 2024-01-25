@@ -13,6 +13,9 @@
 - Moving Average Optimization
 
 
+Quant Strategies
+
+
 https://www.kaggle.com/code/lylebegbie/27-graphs-that-explain-the-world-s-economy
 https://www.kaggle.com/code/sarthak108/indian-economics-overview/notebook
 
