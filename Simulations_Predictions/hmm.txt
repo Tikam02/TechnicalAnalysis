@@ -1,0 +1,7 @@
+https://www.quantstart.com/articles/market-regime-detection-using-hidden-markov-models-in-qstrader/#:~:text=Training%20the%20Hidden%20Markov%20Model,the%20model%20for%20later%20use.
+
+https://freedium.cfd/https://janelleturing.medium.com/understanding-market-regimes-with-hidden-markov-models-ababf9a92e12
+
+https://medium.com/lseg-developer-community/market-regime-detection-using-statistical-and-ml-based-approaches-b4c27e7efc8b
+
+https://github.com/LSEG-API-Samples/Article.RD.Python.MarketRegimeDetectionUsingStatisticalAndMLBasedApproaches/blob/main/Market%20regime%20detection.ipynb
