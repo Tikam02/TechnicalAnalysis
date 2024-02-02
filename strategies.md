@@ -16,7 +16,11 @@
 - Moving Average Optimization
 - Proxy Investing - Invest in shovels which is made for digging gold.
 - RSI + SMA
+- 
+### Bivariate analysis
+**Bivariate analysis involves examining the relationship between two variables. In the context of stock price data, bivariate analysis can be used to examine the relationship between the stock price and one or more other variables (such as volume, volatility , macroeconomic or technical indicators) in order to forecast future stock prices.**
 
+- the code builds a linear regression model to predict the stock price based on the volume and VIX variables, and uses the model to make predictions on the same data used to train the model. Finally, it evaluates the model using the mean squared error (MSE).
 
 ### In-Depth Analysis:
 
