@@ -1,0 +1,38 @@
+name: Copy sentiment_data.csv to streamlit branch
+
+on: 
+  workflow_run:
+    workflows: ["Get Sentiment and update GitHub page"]
+    types:
+      - completed
+
+jobs:
+  copy-csv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout main
+        uses: actions/checkout@v3
+        with:
+          path: 'src'
+          ref: 'main'
+          
+      - name: checkout streamlit
+        uses: actions/checkout@v3
+        with:
+          path: 'dest'
+          ref: 'streamlit'
+      
+      - name: copy
+        shell: bash
+        run: |
+          cp src/datasets/* dest/datasets/
+          
+      - name: commit files
+        shell: bash
+        working-directory: dest
+        run: |
+          git config user.name "Deploy from CI"
+          git config user.email ""
+          git add .
+          git commit -m "Deploy $GITHUB_SHA to streamlit"
+          git push

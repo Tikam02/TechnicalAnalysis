@@ -1,0 +1,48 @@
+name: Get Sentiment and update GitHub page
+
+on:
+  schedule:
+    - cron: "30 11 * * *" #runs at 11:30 utc (17:00 ist) everyday
+
+jobs:
+  refresh_page:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Access the repo
+        uses: actions/checkout@v3
+        with:
+          path: main
+          ref: main
+          repository: ${{github.repository}}
+          token: ${{ secrets.ST_PUSH }}
+
+      - name: Configure Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.11.3'
+
+      - name: Install necessary libraries
+        run: |
+          cd main
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Execute fetch-data python file
+        run: |
+          cd main
+          python fetch-data.py
+
+      - name: Execute python script to update sentiment page
+        run: |
+          cd main
+          python dashboard-generation.py
+
+      - name: save csv file
+        run: |
+          cd main
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m 'upload csv,html using GH Actions'
+          git push --force origin main
+
