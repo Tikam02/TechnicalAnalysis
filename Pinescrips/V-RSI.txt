@@ -1,0 +1,30 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © Sofien-Kaabar
+
+//@version=5
+indicator("RSI Technique - V", overlay = true)
+lookback = input(defval = 8, title = 'Lookback')
+
+rsi = ta.rsi(close, lookback)
+
+bullish_signal = rsi > 20 and rsi[1] < 20 and rsi[2] > 20
+bearish_signal = rsi < 80 and rsi[1] > 80 and rsi[2] < 80
+
+plotshape(bullish_signal,  style = shape.triangleup,   color = color.blue,   location =  location.belowbar, size = size.small)
+plotshape(bearish_signal,  style = shape.triangledown, color = color.orange, location =  location.abovebar, size = size.small)
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+The V-RSI Trading Technique
+From its name, the V-RSI trading technique is a simple method to predict a complete reversal based on the pattern detected on the indicator. The V-technique occurs when the RSI shapes a V or an inverted V around the oversold and overbought levels, thus showing that the market is ready for reversal. The trading conditions for the default version are as follows:
+
+A bullish signal is detected whenever the 8-period RSI surpases 15 when the previous RSI is below 15 and the prior RSI is above 15.
+A bearish signal is detected whenever the 8-period RSI breaks 85 when the previous RSI is above 85 and the prior RSI is below 85.
+
+
+
+You can tighten the conditions a bit by adding the following:
+
+A bullish signal is detected whenever the 8-period RSI surpases 15 when the previous RSI is below 15 and the prior RSI is above 15. At the same time, the current RSI must be below the RSI from two periods ago.
+A bearish signal is detected whenever the 8-period RSI breaks 85 when the previous RSI is above 85 and the prior RSI is below 85. At the same time, the current RSI must be above the RSI from two periods ago.

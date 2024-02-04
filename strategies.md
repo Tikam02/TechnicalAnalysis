@@ -6,6 +6,12 @@
      - How to build a catalyst system that will give a number or convert non-deterministic data from the market and news to give a deterministic data?
 
 
+### Funnel 
+
+1. Select stocks
+- Consider PE and PB and EPS ratios while selecting momentum stock
+2. Check Daily-Weekly and 4 hour Support and resistance
+
 ### Tikam's System
 - Mean reversion
 - Hurst Exponent

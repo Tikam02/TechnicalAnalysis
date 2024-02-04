@@ -1,0 +1,13 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © Sofien-Kaabar
+
+//@version=5
+indicator("Marubozu Finder", overlay = true)
+
+bullish_marubozu = close[1] > open[1] and high[1] == close[1] and low[1] == open[1]
+bearish_marubozu = close[1] < open[1] and high[1] == open[1]  and low[1] == close[1]
+
+plotshape(bullish_marubozu,  style = shape.triangleup,   color = color.green,  location =  location.belowbar, size = size.small)
+plotshape(bearish_marubozu,  style = shape.triangledown, color = color.red,    location =  location.abovebar, size = size.small)
+
+--------------------------------------------------------------------------------------------------------------------------------------------

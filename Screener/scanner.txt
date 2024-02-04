@@ -1,0 +1,15 @@
+https://medium.com/@financial_python/how-to-plot-bollinger-bands-in-python-1d7cc95ad9af
+
+https://medium.com/@farrago_course0f/using-python-and-rsi-to-generate-trading-signals-a56a684fb1
+
+https://medium.com/codex/trading-stocks-using-bollinger-bands-keltner-channel-and-rsi-in-python-980e87e8109d
+
+https://amit-ghosh.medium.com/backtest-entropy-bollinger-band-strategy-using-python-with-futures-data-e780164ebdb3
+
+https://freedium.cfd/https://medium.com/codex/trading-stocks-using-bollinger-bands-keltner-channel-and-rsi-in-python-980e87e8109d
+
+https://freedium.cfd/https://python.plainenglish.io/building-the-ultimate-trading-screener-with-python-part-1-generating-screener-data-0ca23f2b9a11
+
+https://freedium.cfd/https://amit-ghosh.medium.com/backtest-entropy-bollinger-band-strategy-using-python-with-futures-data-e780164ebdb3
+
+https://www.qmr.ai/yfinance-library-the-definitive-guide/
