@@ -1,0 +1,5042 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    
+    <title>
+  Tata Consultancy Services Ltd financial results and price chart
+ - Screener</title>
+    
+    <meta name="author" content="Mittal Analytics Private Limited">
+
+    <!-- PWA manifest -->
+    <meta name="theme-color"
+          content="#fff"
+          media="(prefers-color-scheme: light)">
+    <meta name="theme-color"
+          content="#222530"
+          media="(prefers-color-scheme: dark)">
+    <link rel="manifest" href="/static/manifest.json">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="https://cdn-static.screener.in/favicon/apple-touch-icon.b6e5f24bf7d3.png">
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="https://cdn-static.screener.in/favicon/favicon-32x32.00205914303a.png">
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="https://cdn-static.screener.in/favicon/favicon-16x16.2b35594b2f33.png">
+    <link rel="mask-icon"
+          href="https://cdn-static.screener.in/favicon/safari-pinned-tab.adbe3ed3c5ad.svg"
+          color="#8ED443">
+    <meta name="msapplication-TileColor" content="#da532c">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- plausible -->
+    <script defer
+            event-user="free"
+            data-domain="screener.in"
+            src="https://plausible.screener.in/js/script.pageview-props.tagged-events.js"></script>
+    <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+
+    <!-- FONT -->
+    <link rel="stylesheet" href="https://cdn-static.screener.in/inter/inter.43d4904a3137.css" />
+    <link rel="stylesheet" href="https://cdn-static.screener.in/fontello/css/fontello.fa70678823eb.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn-static.screener.in/css/normalize.a2444750a947.css" media="all">
+    <link rel="stylesheet" href="https://cdn-static.screener.in/css/skeleton.8b899a94ed79.css" media="all">
+    <link rel="stylesheet" href="https://cdn-static.screener.in/css/custom.adc843746c92.css" media="all">
+
+    
+    
+    
+  
+    <link rel="canonical" href="/company/TCS/consolidated/">
+  
+  <style>
+  tr[data-row-company-id="3365"] {
+    font-weight: 500;
+  }
+
+  tr[data-row-company-id="3365"] a {
+    color: var(--ink-900);
+  }
+
+  :target {
+    scroll-margin-top: 90px;
+  }
+
+  @supports not (scroll-margin-top: 90px) {
+    :target {
+      padding-top: 108px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    nav {
+      margin-bottom: 0;
+    }
+
+    .company-nav {
+      top: 50px;
+      margin-bottom: 24px;
+    }
+  }
+  </style>
+
+  </head>
+
+  <body class="light flex-column">
+    <nav class="u-full-width no-print">
+      <div id="mobile-search">
+  <div class="has-addon left-addon dropdown-typeahead">
+  <i class="addon icon-search"></i>
+  <input
+    aria-label="Search for a company"
+    type="search"
+    autocomplete="off"
+    spellcheck="false"
+    placeholder="Search for a company"
+    class="u-full-width"
+    
+    data-company-search="true">
+</div>
+
+</div>
+
+<ul class="bottom-menu-bar hide-from-tablet-landscape">
+  
+  <li class="">
+    <a href="/">
+      <i class="icon-news"></i>
+      <br>
+      Feed
+    </a>
+  </li>
+  
+
+  <li class="">
+    <a href="/explore/">
+      <i class="icon-screens"></i>
+      <br>
+      Screens
+    </a>
+  </li>
+
+  <li>
+    <button type="button" onclick="MobileMenu.toggleSearch(this)" class="search-button" title="Search">
+      <i class="icon-search" style="font-size: 18px"></i>
+    </button>
+  </li>
+
+  <li>
+    <button class="button-plain" onclick="Modal.showInModal('#nav-tools-menu')">
+      <i class="icon-tools"></i>
+      <br>
+      Tools
+    </button>
+  </li>
+
+  
+  <li class="">
+    <button class="button-plain" onclick="Modal.showInModal('#nav-user-menu')">
+      <i class="icon-user"></i>
+      <br>
+      Account
+    </button>
+  </li>
+  
+</ul>
+
+      <div class="top-nav-holder">
+        <div class="container">
+
+
+
+<div class="layer-holder top-navigation">
+  <div class="layer flex flex-space-between"
+       style="align-items: center;
+              height: 50px">
+    <div class="flex" style="align-items: center">
+      <a href="/" class="logo-holder">
+        <img alt="Screener Logo"
+             class="logo"
+             src="https://cdn-static.screener.in/img/logo-black.f44abb4998d1.svg" />
+      </a>
+
+      <div class="desktop-links" style="margin-left: 48px">
+        <a href="/">
+          
+            Feed
+          
+        </a>
+        <a href="/explore/">Screens</a>
+        <div class="dropdown-menu">
+          <button class="button-plain"
+                  type="button"
+                  onclick="Utils.toggleDropdown(event)">
+            Tools
+            <i class="icon-down"></i>
+          </button>
+          <ul class="dropdown-content flex-column tools-menu"
+              style="width: 350px"
+              id="nav-tools-menu">
+            <li>
+              <a href="/screen/new/"
+                 class="flex flex-align-center flex-gap-16">
+                <div class="bg-stripes square-56">
+                  <img src="https://cdn-static.screener.in/icons/screens.e960a5daedf9.svg" alt="Create a stock screen">
+                </div>
+                <div>
+                  <div class="font-weight-500 font-size-14">Create a stock screen</div>
+                  <div class="sub font-size-13">Run queries on 10 years of financial data</div>
+                </div>
+              </a>
+            </li>
+            <li class="flex flex-align-center no-hover" style="padding: 4px 0;">
+              <div class="button button-primary premium-indicator flex flex-align-center">
+                <img src="https://cdn-static.screener.in/icons/crown.fb0d2413ee43.svg"
+                     alt="Premium icon"
+                     style="margin-right: 8px">
+                <span>Premium features</span>
+              </div>
+              <hr class="flex-grow" style="padding: 0; margin: 0;">
+            </li>
+            <li>
+              <a href="/hs/" class="flex flex-align-center flex-gap-16">
+                <div class="bg-stripes square-56">
+                  <img src="https://cdn-static.screener.in/icons/export.d623f0029933.svg" alt="Commodity Prices">
+                </div>
+                <div>
+                  <div class="font-weight-500 font-size-14">Commodity Prices</div>
+                  <div class="sub font-size-13">See prices and trends of over 10,000 commodities</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="/people/"
+                 class="flex flex-align-center flex-gap-16">
+                <div class="bg-stripes square-56">
+                  <img src="https://cdn-static.screener.in/icons/shares.10acc20cb936.svg"
+                       alt="Search shareholders by name">
+                </div>
+                <div>
+                  <div class="font-weight-500 font-size-14">Search shareholders</div>
+                  <div class="sub font-size-13">See companies where a person holds over 1% of the shares</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="/announcements/"
+                 class="flex flex-align-center flex-gap-16">
+                <div class="bg-stripes square-56">
+                  <img src="https://cdn-static.screener.in/icons/loudspeaker.88769927f6eb.svg" alt="Latest Announcements">
+                </div>
+                <div>
+                  <div class="font-weight-500 font-size-14">Latest Announcements</div>
+                  <div class="sub font-size-13">Browse, filter and set alerts for announcements.</div>
+                </div>
+              </a>
+            </li>
+            
+              <li style="padding: 16px;">
+                <a href="/premium/"
+                   class="button button-primary text-align-center"
+                   style="color: var(--white);
+                          padding: 10px 24px">Upgrade to premium</a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="show-from-tablet-landscape flex flex-gap-16"
+         style="justify-content: flex-end;
+                flex: 1 1 400px">
+      <div class="search" id="desktop-search"><div class="has-addon left-addon dropdown-typeahead">
+  <i class="addon icon-search"></i>
+  <input
+    aria-label="Search for a company"
+    type="search"
+    autocomplete="off"
+    spellcheck="false"
+    placeholder="Search for a company"
+    class="u-full-width"
+    
+    data-company-search="true">
+</div>
+</div>
+
+      
+        <div id="account-dropdown" class="dropdown-menu">
+          <button class="account" type="button" onclick="Utils.toggleDropdown(event)">
+            <i class="icon-user-line blue-icon"></i>
+            Tikam
+            
+            <i class="icon-down"></i>
+          </button>
+
+          <div class="dropdown-content flex-column font-size-14 font-weight-500"
+               style="right: 0;
+                      width: 154px"
+               id="nav-user-menu">
+            <a href="/user/account/">
+              <i class="icon-settings"></i>
+              Profile
+            </a>
+            <a href="/alerts/">
+              <i class="icon-bell"></i>
+              Alerts
+            </a>
+            <a href="/notebook/">
+              <i class="icon-book-open"></i>
+              Notebook
+            </a>
+            
+            
+              <a href="/premium/">
+                <i class="icon-crown"></i>
+                Upgrade
+              </a>
+            
+            <hr class="no-hover">
+            <form action="/logout/" method="post" style="padding: 0">
+              <input type="hidden" name="csrfmiddlewaretoken" value="CIGEuJ6deY5G25hglw7393gTsRU5jaaB2lnNAl8vnzimKvIeCyDjwVq1IID7r6SH">
+              <button type="submit"
+                      class="button-plain"
+                      style="width: 100%;
+                             padding: 4px 16px">
+                <i class="icon-off"></i>
+                Logout
+              </button>
+            </form>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+      </div>
+    </nav>
+
+    
+<div class="bg-base sticky company-nav">
+  <div class="flex flex-space-between container hide-from-tablet-landscape">
+    <h1 class="h2 shrink-text" style="margin: 0.5em 0">Tata Consultancy Services Ltd</h1>
+    <button type="button"
+        class="a sub plausible-event-name=Notebook plausible-event-user=free"
+        onclick="Modal.openInModal(event)"
+        data-url="/notebook/3365/"
+        data-title="Tata Consultancy Services Ltd"
+        data-is-right-modal="true"
+        title="View Notebook">
+  
+    <i class="icon-book-open"></i>
+  
+  <span class="show-from-tablet-landscape">Notebook</span>
+</button>
+
+  </div>
+
+  <div class="sub-nav-holder">
+    <div class="sub-nav">
+      <a href="#top">
+        <span class="shrink-text show-from-tablet-landscape">
+          TCS
+        </span>
+        <span class="hide-from-tablet-landscape">
+          Summary
+        </span>
+      </a>
+      <a href="#chart">Chart</a>
+      <a href="#analysis">Analysis</a>
+      <a href="#peers">Peers</a>
+      <a href="#quarters">Quarters</a>
+      <a href="#profit-loss">Profit &amp; Loss</a>
+      <a href="#balance-sheet">Balance Sheet</a>
+      <a href="#cash-flow">Cash Flow</a>
+      <a href="#ratios">Ratios</a>
+      <a href="#shareholding">Investors</a>
+      <a href="#documents">Documents</a>
+      <div class="flex-grow flex show-from-tablet-landscape">
+        <div class="flex-grow"></div>
+        <button type="button"
+        class="a sub plausible-event-name=Notebook plausible-event-user=free"
+        onclick="Modal.openInModal(event)"
+        data-url="/notebook/3365/"
+        data-title="Tata Consultancy Services Ltd"
+        data-is-right-modal="true"
+        title="View Notebook">
+  
+    <i class="icon-book-open"></i>
+  
+  <span class="show-from-tablet-landscape">Notebook</span>
+</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+      <main class="flex-grow container">
+        
+
+
+
+  
+    
+    
+
+    
+  
+
+
+
+
+
+
+        
+        <div class="breadcrumb"></div>
+        
+
+        
+<div
+    data-company-id="3365"
+    data-warehouse-id="1161"
+    data-user-is-registered="true"
+    
+    id="company-info">
+</div>
+
+<div class="card card-large" id="top">
+  <div class="flex flex-space-between flex-gap-8">
+    <div class="flex-row flex-wrap flex-align-center flex-grow" style="flex-basis: 300px;">
+      <h1 class="margin-0 show-from-tablet-landscape">Tata Consultancy Services Ltd</h1>
+      <div class="ink-600 show-from-tablet-landscape" style="opacity: 0.5;">
+        <i class="icon-dot"></i>
+      </div>
+      <div class="font-size-18 strong line-height-14">
+        <div class="flex flex-align-center">
+          <span>₹ 4,134</span>
+          
+          <span class="font-size-12 down margin-left-4">
+            <i class="icon-circle-down"></i>
+            -0.01%
+          </span>
+          
+        </div>
+        <div class="ink-600 font-size-11 font-weight-500">
+          
+            09 Feb
+            
+              - close price
+            
+          
+        </div>
+      </div>
+    </div>
+
+    <form method="post" class="flex margin-0" style="align-items: center">
+      <input type="hidden" name="csrfmiddlewaretoken" value="CIGEuJ6deY5G25hglw7393gTsRU5jaaB2lnNAl8vnzimKvIeCyDjwVq1IID7r6SH">
+      <input type="hidden" name="next" value="/company/TCS/">
+
+      
+      <button
+          class="margin-right-8 plausible-event-name=Excel+Company plausible-event-user=free"
+          formaction="/user/company/export/1161/"
+          aria-label="Export to Excel">
+        <i class="icon-download"></i>
+        <span class="hide-on-mobile">Export to Excel</span>
+      </button>
+      
+
+      <div class="dropdown-filter" id="add-to-sublists">
+        
+        <button formaction="/api/company/3365/add/" class="button-primary no-margin">
+          <i class="icon-plus"></i> Follow
+        </button>
+        
+        <div id="company-in-sublists" class="hidden"></div>
+      </div>
+    </form>
+  </div>
+
+  
+  <div class="company-links show-from-tablet-landscape" style="font-weight: 500; margin-top: 8px;">
+    <a href="http://www.tcs.com" target="_blank" rel="noopener noreferrer">
+      <i class="icon-link"></i>
+      <span style="font-size: 1.8rem;">
+        tcs.com
+      </span>
+    </a>
+
+    
+    <a href="https://www.bseindia.com/stock-share-price/tata-consultancy-services-ltd/TCS/532540/" target="_blank" rel="noopener noreferrer">
+      <i class="icon-link-ext"></i>
+      <span class="ink-700 upper" style="letter-spacing: 0.05px;">
+        BSE: 532540
+      </span>
+    </a>
+    
+
+    
+    <a href="https://www.nseindia.com/get-quotes/equity?symbol=TCS" target="_blank" rel="noopener noreferrer">
+      <i class="icon-link-ext"></i>
+      <span class="ink-700 upper" style="letter-spacing: 0.05px;">
+        NSE
+        
+        : TCS
+      </span>
+    </a>
+    
+  </div>
+  
+
+  <div class="company-info">
+    
+    <div class="company-profile">
+      <div class="flex flex-column" style="flex: 1 1;">
+        <div class="title">About</div>
+        <div class="sub show-more-box about" style="flex-basis: 100px">
+          <p>Tata Consultancy Services is the flagship company and a part of Tata group. It is an IT services, consulting and business solutions organization that has been partnering with many of the world's largest businesses in their transformation journeys for over 50 years. TCS offers a consulting-led, cognitive powered, integrated portfolio of business, technology and engineering services and solutions. <sup><a href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2019-20/ar/annual-report-2019-2020.pdf#page=3" target="_blank" rel="noopener noreferrer">[1]</a></sup></p>
+        </div>
+
+        
+        <div class="title">Key Points</div>
+        <div class="sub commentary always-show-more-box">
+          <p><strong>Revenue Breakup Q2FY24</strong><sup><a href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2023-24/q2/Presentations/Q2%202023-24%20Fact%20Sheet.pdf#page=8" target="_blank" rel="noopener noreferrer">[1]</a></sup><br>
+BFSI : 32.6%<br>
+Consumer Business : 15.9%<br>
+Life Sciences &amp; Healthcare : 10.9%<br>
+Technology &amp; Services : 8.6%<br>
+Manufacturing : 8.5%<br>
+Communication &amp; Media : 6.9%<br>
+Energy, Resources and Utilities : 5.6%<br>
+Regional Markets &amp; Others : 11%</p>
+          <div class="show-more-button" style="height: 20px"></div>
+        </div>
+
+        <button
+          class="a upper font-weight-500 letter-spacing plausible-event-name=Key+Insight plausible-event-user=free"
+          style="font-size: 1.4rem"
+          type="button"
+          onclick="Modal.openInModal(event)"
+          data-title="Tata Consultancy Services Ltd"
+          data-url="/wiki/company/3365/commentary/v2/"
+          data-is-right-modal="true"
+        >
+          Read More <i class="icon-right"></i>
+        </button>
+        
+      </div>
+
+      <div class="company-links hide-from-tablet-landscape margin-top-20" style="font-weight: 500;">
+        <a href="http://www.tcs.com" target="_blank" rel="noopener noreferrer">
+          <i class="icon-link"></i>
+          <span style="font-size: 1.6rem;">
+            Website
+          </span>
+        </a>
+
+        
+        <a href="https://www.bseindia.com/stock-share-price/tata-consultancy-services-ltd/TCS/532540/" target="_blank" rel="noopener noreferrer">
+          <i class="icon-link-ext"></i>
+          <span class="ink-700 upper" style="letter-spacing: 0.05px;">
+            BSE
+          </span>
+        </a>
+        
+
+        
+        <a href="https://www.nseindia.com/get-quotes/equity?symbol=TCS" target="_blank" rel="noopener noreferrer">
+          <i class="icon-link-ext"></i>
+          <span class="ink-700 upper" style="letter-spacing: 0.05px;">
+            NSE
+            
+          </span>
+        </a>
+        
+      </div>
+    </div>
+    
+
+    <div class="company-ratios">
+      <ul id="top-ratios">
+        
+
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    Market Cap
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+      ₹
+    
+    <span class="number">15,12,542</span>
+    
+      Cr.
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    Current Price
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+      ₹
+    
+    <span class="number">4,134</span>
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    High / Low
+    
+  </span>
+
+  
+  <span class="nowrap value">₹ <span class="number">4,185</span> / <span class="number">3,070</span></span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    Stock P/E
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+    <span class="number">35.4</span>
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    Book Value
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+      ₹
+    
+    <span class="number">229</span>
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    Dividend Yield
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+    <span class="number">1.16</span>
+    
+      %
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    ROCE
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+    <span class="number">64.2</span>
+    
+      %
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    ROE
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+    <span class="number">51.5</span>
+    
+      %
+    
+  </span>
+  
+</li>
+
+<li class="flex flex-space-between" data-source="default">
+  <span class="name">
+    
+    Face Value
+    
+  </span>
+
+  
+  <span class="nowrap value">
+    
+      ₹
+    
+    <span class="number">1.00</span>
+    
+  </span>
+  
+</li>
+
+
+
+
+
+
+      </ul>
+
+      <div style="margin-top: 32px;">
+        <label for="quick-ratio-search">Add ratio to table</label>
+
+        <div class="flex-row flex-space-between flex-baseline flex-gap-16">
+          <div class="dropdown-typeahead flex-grow" style="max-width: 480px;">
+            <input id="quick-ratio-search" type="text" placeholder="eg. Promoter holding" style="width: 100%;">
+          </div>
+
+          
+          <a href="/user/quick_ratios/?next=/company/TCS/" class="smaller">
+            <i class="icon-pencil"></i>
+            <span class="upper font-weight-500 letter-spacing">Edit ratios</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section id="chart" class="card card-large" style="margin-bottom: 2.5rem">
+  <div id="chart-menu"
+     class="flex flex-space-between flex-wrap"
+     style="margin-bottom: 16px">
+  <div class="options" id="company-chart-days">
+    <button name="days"
+            value="30"
+            onclick="CompanyChart.setActive(event)"
+            type="button">1m</button>
+    <button name="days"
+            value="180"
+            onclick="CompanyChart.setActive(event)"
+            type="button">6m</button>
+    <button name="days"
+            value="365"
+            onclick="CompanyChart.setActive(event)"
+            type="button">1Yr</button>
+    <button name="days"
+            value="1095"
+            onclick="CompanyChart.setActive(event)"
+            type="button">3Yr</button>
+    <button name="days"
+            value="1825"
+            onclick="CompanyChart.setActive(event)"
+            type="button">5Yr</button>
+    <button name="days"
+            value="3652"
+            onclick="CompanyChart.setActive(event)"
+            type="button">10Yr</button>
+    <button name="days"
+            value="10000"
+            onclick="CompanyChart.setActive(event)"
+            type="button">Max</button>
+  </div>
+
+  <div class="flex margin-bottom-24">
+    <div class="options margin-right-8"
+         id="company-chart-metrics"
+         style="margin-bottom: 0">
+      
+        
+          <button class="plausible-event-name=Chart+Metric plausible-event-user=free plausible-event-metric=Price"
+                  onclick="CompanyChart.setActive(event)"
+                  name="metrics"
+                  value="Price-DMA50-DMA200-Volume"
+                  type="button">Price</button>
+        
+      
+        
+          <button class="plausible-event-name=Chart+Metric plausible-event-user=free plausible-event-metric=PE"
+                  onclick="CompanyChart.setActive(event)"
+                  name="metrics"
+                  value="Price to Earning-Median PE-EPS"
+                  type="button">PE Ratio</button>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      <button class="hidden"
+              id="company-chart-metrics-more-active"
+              onclick="CompanyChart.setActive(event)"
+              name="metrics"
+              value=""
+              type="button">Hidden</button>
+      <div class="dropdown-menu" id="metrics-dropdown">
+        <button type="button"
+                class="button-plain"
+                onclick="Utils.toggleDropdown(event)">
+          More <i class="icon-down"></i>
+        </button>
+        <ul class="dropdown-content" style="max-width: 160px; right: 0;">
+          
+            
+          
+            
+          
+            
+              <li>
+                <button class="a u-full-width plausible-event-name=Chart+Metric plausible-event-user=free plausible-event-metric=Sales"
+                        style="padding: 4px 12px"
+                        onclick="CompanyChart.setActive(event)"
+                        name="metrics"
+                        value="GPM-OPM-NPM-Quarter Sales"
+                        type="button">Sales &amp; Margin</button>
+              </li>
+            
+          
+            
+              <li>
+                <button class="a u-full-width plausible-event-name=Chart+Metric plausible-event-user=free plausible-event-metric=EV-EBITDA"
+                        style="padding: 4px 12px"
+                        onclick="CompanyChart.setActive(event)"
+                        name="metrics"
+                        value="EV Multiple-Median EV Multiple-EBITDA"
+                        type="button">EV / EBITDA</button>
+              </li>
+            
+          
+            
+              <li>
+                <button class="a u-full-width plausible-event-name=Chart+Metric plausible-event-user=free plausible-event-metric=PBV"
+                        style="padding: 4px 12px"
+                        onclick="CompanyChart.setActive(event)"
+                        name="metrics"
+                        value="Price to book value-Median PBV-Book value"
+                        type="button">Price to Book</button>
+              </li>
+            
+          
+            
+              <li>
+                <button class="a u-full-width plausible-event-name=Chart+Metric plausible-event-user=free plausible-event-metric=Market+Cap+to+Sales"
+                        style="padding: 4px 12px"
+                        onclick="CompanyChart.setActive(event)"
+                        name="metrics"
+                        value="Market Cap to Sales-Median Market Cap to Sales-Sales"
+                        type="button">Market Cap / Sales</button>
+              </li>
+            
+          
+        </ul>
+      </div>
+    </div>
+    
+      <button type="button"
+              class="button-small button-secondary flex flex-align-center"
+              style="border-color: var(--button-border);
+                     border-radius: 3px"
+              data-title="Alerts for Tata Consultancy Services Ltd"
+              onclick="Modal.openInModal(event)"
+              data-url="/alerts/stock-1161/"
+              aria-label="Add alerts for company">
+        <i class="icon-bell"></i>
+        
+      </button>
+    
+  </div>
+</div>
+
+<div class="flex no-select">
+  <div class="hide-on-mobile chart-label">
+    <div id="chart-label-left"></div>
+  </div>
+
+  <div id="chart-area" style="flex-grow: 1;">
+    <div id="chart-info" class="invisible">
+      <div id="chart-crosshair"></div>
+      <div id="chart-tooltip" class="font-size-14">
+        <div id="chart-tooltip-meta" class="ink-700 font-size-12"></div>
+        <div class="font-weight-500 font-size-15" id="chart-tooltip-title"></div>
+        <div id="chart-tooltip-info"></div>
+      </div>
+    </div>
+    <div id="canvas-chart-holder" style="height: 375px;"></div>
+  </div>
+
+  <div class="hide-on-mobile chart-label">
+    <div id="chart-label-right"></div>
+  </div>
+</div>
+<div id="chart-legend"></div>
+
+</section>
+
+
+<section id="analysis" class="card card-large">
+  <div class="flex flex-column-mobile flex-gap-32">
+    <div class="pros" style="flex-basis: 50%;">
+      <p class="title">Pros</p>
+      <ul>
+        
+        <li>Company is almost debt free.</li>
+        
+        <li>Company has a good return on equity (ROE) track record: 3 Years ROE 48.2%</li>
+        
+        <li>Company has been maintaining a healthy dividend payout of 64.8%</li>
+        
+        <li>Company&#x27;s working capital requirements have reduced from 41.4 days to 27.1 days</li>
+        
+      </ul>
+    </div>
+    <div class="cons" style="flex-basis: 50%;">
+      <p class="title">Cons</p>
+      <ul>
+        
+        <li>Stock is trading at 18.0 times its book value</li>
+        
+      </ul>
+    </div>
+  </div>
+  <p class="sub font-size-14 margin-top-16 margin-bottom-0">
+    <span style="vertical-align: sub;">*</span>
+    <span class="font-weight-500">The pros and cons are machine generated.</span>
+    <span class="has-tooltip">
+      <i class="icon-info"></i>
+      <span class="tooltip" style="width: 300px; left: -100px;">
+        Pros / cons are based on a checklist to highlight important points. Please exercise caution and do your own analysis.
+      </span>
+    </span>
+  </p>
+</section>
+
+<section id="peers" class="card card-large">
+  <div class="flex flex-space-between" style="align-items: center;">
+    <div>
+      <h2>Peer comparison</h2>
+
+      
+      <p class="sub">
+        Sector:
+        <a href="/company/compare/00000034/">
+          IT - Software
+        </a>
+        <span style="margin: 16px"></span>
+        Industry:
+        <a href="/company/compare/00000034/00000027/">
+          Computers - Software - Large
+        </a>
+      </p>
+      
+    </div>
+
+    <div class="flex-reverse">
+      <a href="/user/columns/?next=/company/tcs/#peers" class="button button-secondary">
+        <i class="icon-cog"></i>
+        <span class="hide-on-mobile">Edit</span>
+        Columns
+      </a>
+    </div>
+  </div>
+
+  <div id="peers-table-placeholder">Loading peers table ...</div>
+
+  <div class="flex-row flex-baseline">
+    <label for="search-peer-comparison" style="padding-right: 1rem">Detailed Comparison with:</label>
+    <div class="dropdown-typeahead">
+      <input type="text" id="search-peer-comparison" placeholder="eg. Infosys" class="small">
+    </div>
+  </div>
+</section>
+
+<section id="quarters" class="card card-large">
+  
+    
+
+
+<div class="flex-row flex-space-between flex-gap-16">
+  <div>
+    <h2>Quarterly Results</h2>
+
+    <p class="sub" style="margin: 0;">
+      
+        Standalone Figures in Rs. Crores
+        /
+        <a href="/company/TCS/consolidated/#quarters"
+           class="strong">View Consolidated</a>
+      
+    </p>
+  </div>
+
+  <div class="flex flex-gap-8"
+       style="justify-content: flex-end;
+              align-items: center">
+    
+
+    
+  </div>
+</div>
+
+
+
+<div class="responsive-holder fill-card-width" data-result-table>
+  <table class="data-table responsive-text-nowrap">
+    <thead>
+      <tr>
+        <th class="text"></th>
+        
+          <th class="highlight-cell">Dec 2020</th>
+        
+          <th class="">Mar 2021</th>
+        
+          <th class="">Jun 2021</th>
+        
+          <th class="">Sep 2021</th>
+        
+          <th class="highlight-cell">Dec 2021</th>
+        
+          <th class="">Mar 2022</th>
+        
+          <th class="">Jun 2022</th>
+        
+          <th class="">Sep 2022</th>
+        
+          <th class="highlight-cell">Dec 2022</th>
+        
+          <th class="">Mar 2023</th>
+        
+          <th class="">Jun 2023</th>
+        
+          <th class="">Sep 2023</th>
+        
+          <th class="highlight-cell">Dec 2023</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Sales', 'quarters', this)">
+                Sales&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="highlight-cell">34,957</td>
+          
+            <td class="">36,017</td>
+          
+            <td class="">37,722</td>
+          
+            <td class="">39,315</td>
+          
+            <td class="highlight-cell">40,845</td>
+          
+            <td class="">42,459</td>
+          
+            <td class="">44,480</td>
+          
+            <td class="">46,819</td>
+          
+            <td class="highlight-cell">49,275</td>
+          
+            <td class="">49,780</td>
+          
+            <td class="">49,862</td>
+          
+            <td class="">50,165</td>
+          
+            <td class="highlight-cell">50,844</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Expenses', 'quarters', this)">
+                Expenses&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="highlight-cell">24,279</td>
+          
+            <td class="">25,065</td>
+          
+            <td class="">26,529</td>
+          
+            <td class="">27,680</td>
+          
+            <td class="highlight-cell">29,140</td>
+          
+            <td class="">30,747</td>
+          
+            <td class="">32,651</td>
+          
+            <td class="">34,037</td>
+          
+            <td class="highlight-cell">35,759</td>
+          
+            <td class="">36,910</td>
+          
+            <td class="">36,726</td>
+          
+            <td class="">36,363</td>
+          
+            <td class="highlight-cell">36,481</td>
+          
+        </tr>
+      
+        <tr class="stripe strong">
+          <td class="text">
+            
+              Operating Profit
+            
+          </td>
+          
+            <td class="highlight-cell">10,678</td>
+          
+            <td class="">10,952</td>
+          
+            <td class="">11,193</td>
+          
+            <td class="">11,635</td>
+          
+            <td class="highlight-cell">11,705</td>
+          
+            <td class="">11,712</td>
+          
+            <td class="">11,829</td>
+          
+            <td class="">12,782</td>
+          
+            <td class="highlight-cell">13,516</td>
+          
+            <td class="">12,870</td>
+          
+            <td class="">13,136</td>
+          
+            <td class="">13,802</td>
+          
+            <td class="highlight-cell">14,363</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              OPM %
+            
+          </td>
+          
+            <td class="highlight-cell">31%</td>
+          
+            <td class="">30%</td>
+          
+            <td class="">30%</td>
+          
+            <td class="">30%</td>
+          
+            <td class="highlight-cell">29%</td>
+          
+            <td class="">28%</td>
+          
+            <td class="">27%</td>
+          
+            <td class="">27%</td>
+          
+            <td class="highlight-cell">27%</td>
+          
+            <td class="">26%</td>
+          
+            <td class="">26%</td>
+          
+            <td class="">28%</td>
+          
+            <td class="highlight-cell">28%</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Other Income', 'quarters', this)">
+                Other Income&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="highlight-cell">2,096</td>
+          
+            <td class="">864</td>
+          
+            <td class="">756</td>
+          
+            <td class="">2,524</td>
+          
+            <td class="highlight-cell">2,225</td>
+          
+            <td class="">1,981</td>
+          
+            <td class="">715</td>
+          
+            <td class="">1,622</td>
+          
+            <td class="highlight-cell">1,558</td>
+          
+            <td class="">1,433</td>
+          
+            <td class="">1,903</td>
+          
+            <td class="">1,755</td>
+          
+            <td class="highlight-cell">851</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              Interest
+            
+          </td>
+          
+            <td class="highlight-cell">159</td>
+          
+            <td class="">111</td>
+          
+            <td class="">120</td>
+          
+            <td class="">117</td>
+          
+            <td class="highlight-cell">126</td>
+          
+            <td class="">123</td>
+          
+            <td class="">184</td>
+          
+            <td class="">125</td>
+          
+            <td class="highlight-cell">136</td>
+          
+            <td class="">250</td>
+          
+            <td class="">138</td>
+          
+            <td class="">134</td>
+          
+            <td class="highlight-cell">204</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              Depreciation
+            
+          </td>
+          
+            <td class="highlight-cell">771</td>
+          
+            <td class="">788</td>
+          
+            <td class="">809</td>
+          
+            <td class="">844</td>
+          
+            <td class="highlight-cell">925</td>
+          
+            <td class="">944</td>
+          
+            <td class="">960</td>
+          
+            <td class="">976</td>
+          
+            <td class="highlight-cell">996</td>
+          
+            <td class="">1,008</td>
+          
+            <td class="">969</td>
+          
+            <td class="">979</td>
+          
+            <td class="highlight-cell">964</td>
+          
+        </tr>
+      
+        <tr class=" strong">
+          <td class="text">
+            
+              Profit before tax
+            
+          </td>
+          
+            <td class="highlight-cell">11,844</td>
+          
+            <td class="">10,917</td>
+          
+            <td class="">11,020</td>
+          
+            <td class="">13,198</td>
+          
+            <td class="highlight-cell">12,879</td>
+          
+            <td class="">12,626</td>
+          
+            <td class="">11,400</td>
+          
+            <td class="">13,303</td>
+          
+            <td class="highlight-cell">13,942</td>
+          
+            <td class="">13,045</td>
+          
+            <td class="">13,932</td>
+          
+            <td class="">14,444</td>
+          
+            <td class="highlight-cell">14,046</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              Tax %
+            
+          </td>
+          
+            <td class="highlight-cell">22%</td>
+          
+            <td class="">25%</td>
+          
+            <td class="">25%</td>
+          
+            <td class="">23%</td>
+          
+            <td class="highlight-cell">23%</td>
+          
+            <td class="">22%</td>
+          
+            <td class="">25%</td>
+          
+            <td class="">24%</td>
+          
+            <td class="highlight-cell">24%</td>
+          
+            <td class="">25%</td>
+          
+            <td class="">25%</td>
+          
+            <td class="">24%</td>
+          
+            <td class="highlight-cell">23%</td>
+          
+        </tr>
+      
+        <tr class=" strong">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Net Profit', 'quarters', this)">
+                Net Profit&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="highlight-cell">9,242</td>
+          
+            <td class="">8,174</td>
+          
+            <td class="">8,281</td>
+          
+            <td class="">10,152</td>
+          
+            <td class="highlight-cell">9,959</td>
+          
+            <td class="">9,795</td>
+          
+            <td class="">8,588</td>
+          
+            <td class="">10,059</td>
+          
+            <td class="highlight-cell">10,659</td>
+          
+            <td class="">9,800</td>
+          
+            <td class="">10,484</td>
+          
+            <td class="">10,929</td>
+          
+            <td class="highlight-cell">10,753</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              EPS in Rs
+            
+          </td>
+          
+            <td class="highlight-cell">24.63</td>
+          
+            <td class="">22.10</td>
+          
+            <td class="">22.39</td>
+          
+            <td class="">27.44</td>
+          
+            <td class="highlight-cell">26.92</td>
+          
+            <td class="">26.77</td>
+          
+            <td class="">23.47</td>
+          
+            <td class="">27.49</td>
+          
+            <td class="highlight-cell">29.13</td>
+          
+            <td class="">26.78</td>
+          
+            <td class="">28.65</td>
+          
+            <td class="">29.87</td>
+          
+            <td class="highlight-cell">29.39</td>
+          
+        </tr>
+      
+
+      
+        <tr class="font-size-14 ink-600">
+          <td class="text ink-600">Raw PDF</td>
+          
+            <td class="hover-link highlight-cell">
+              <a href="/company/source/quarter/3365/12/2020/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+            <td class="hover-link ">
+              <a href="/company/source/quarter/3365/03/2021/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+            <td class="hover-link ">
+              <a href="/company/source/quarter/3365/06/2021/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+            <td class="hover-link ">
+              <a href="/company/source/quarter/3365/09/2021/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+            <td class="hover-link highlight-cell">
+              <a href="/company/source/quarter/3365/12/2021/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+            <td class="hover-link ">
+              <a href="/company/source/quarter/3365/03/2022/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+            <td class="hover-link ">
+              <a href="/company/source/quarter/3365/06/2022/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+            <td class="hover-link ">
+              <a href="/company/source/quarter/3365/09/2022/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+            <td class="hover-link highlight-cell">
+              <a href="/company/source/quarter/3365/12/2022/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+            <td class="hover-link ">
+              <a href="/company/source/quarter/3365/03/2023/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+            <td class="hover-link ">
+              <a href="/company/source/quarter/3365/06/2023/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+            <td class="hover-link ">
+              <a href="/company/source/quarter/3365/09/2023/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+            <td class="hover-link highlight-cell">
+              <a href="/company/source/quarter/3365/12/2023/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="Raw PDF"
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                <i class="icon-file-pdf ink-600-link"></i>
+              </a>
+            </td>
+          
+        </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+  
+
+  
+</section>
+
+<section id="profit-loss" class="card card-large">
+  
+
+
+<div class="flex-row flex-space-between flex-gap-16">
+  <div>
+    <h2>Profit & Loss</h2>
+
+    <p class="sub" style="margin: 0;">
+      
+        Standalone Figures in Rs. Crores
+        /
+        <a href="/company/TCS/consolidated/#profit-loss"
+           class="strong">View Consolidated</a>
+      
+    </p>
+  </div>
+
+  <div class="flex flex-gap-8"
+       style="justify-content: flex-end;
+              align-items: center">
+    
+      <button data-segment-button-close
+              onclick="Segment.closeSegments('profit-loss')"
+              class="hidden">Close Segments</button>
+
+      
+        <button data-segment-button="2"
+                onclick="Segment.showSegment('profit-loss', '2')"
+                class="button-secondary plausible-event-name=Segment+Results plausible-event-user=unregistered">
+          Geographical Segments
+        </button>
+      
+    
+
+    
+  </div>
+</div>
+
+<div class="responsive-holder hidden" data-segment-table></div>
+
+<div class="responsive-holder fill-card-width" data-result-table>
+  <table class="data-table responsive-text-nowrap">
+    <thead>
+      <tr>
+        <th class="text"></th>
+        
+          <th class="">Mar 2012</th>
+        
+          <th class="">Mar 2013</th>
+        
+          <th class="">Mar 2014</th>
+        
+          <th class="">Mar 2015</th>
+        
+          <th class="">Mar 2016</th>
+        
+          <th class="">Mar 2017</th>
+        
+          <th class="">Mar 2018</th>
+        
+          <th class="">Mar 2019</th>
+        
+          <th class="">Mar 2020</th>
+        
+          <th class="">Mar 2021</th>
+        
+          <th class="">Mar 2022</th>
+        
+          <th class="">Mar 2023</th>
+        
+          <th class="">TTM</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Sales', 'profit-loss', this)">
+                Sales&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="">38,104</td>
+          
+            <td class="">48,426</td>
+          
+            <td class="">64,673</td>
+          
+            <td class="">73,578</td>
+          
+            <td class="">85,864</td>
+          
+            <td class="">92,693</td>
+          
+            <td class="">97,356</td>
+          
+            <td class="">123,170</td>
+          
+            <td class="">131,306</td>
+          
+            <td class="">135,963</td>
+          
+            <td class="">160,341</td>
+          
+            <td class="">190,354</td>
+          
+            <td class="">200,651</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Expenses', 'profit-loss', this)">
+                Expenses&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="">26,719</td>
+          
+            <td class="">34,120</td>
+          
+            <td class="">43,139</td>
+          
+            <td class="">52,550</td>
+          
+            <td class="">58,810</td>
+          
+            <td class="">65,604</td>
+          
+            <td class="">69,551</td>
+          
+            <td class="">88,206</td>
+          
+            <td class="">93,953</td>
+          
+            <td class="">95,653</td>
+          
+            <td class="">114,096</td>
+          
+            <td class="">139,357</td>
+          
+            <td class="">146,480</td>
+          
+        </tr>
+      
+        <tr class="stripe strong">
+          <td class="text">
+            
+              Operating Profit
+            
+          </td>
+          
+            <td class="">11,386</td>
+          
+            <td class="">14,306</td>
+          
+            <td class="">21,534</td>
+          
+            <td class="">21,028</td>
+          
+            <td class="">27,054</td>
+          
+            <td class="">27,089</td>
+          
+            <td class="">27,805</td>
+          
+            <td class="">34,964</td>
+          
+            <td class="">37,353</td>
+          
+            <td class="">40,310</td>
+          
+            <td class="">46,245</td>
+          
+            <td class="">50,997</td>
+          
+            <td class="">54,171</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              OPM %
+            
+          </td>
+          
+            <td class="">30%</td>
+          
+            <td class="">30%</td>
+          
+            <td class="">33%</td>
+          
+            <td class="">29%</td>
+          
+            <td class="">32%</td>
+          
+            <td class="">29%</td>
+          
+            <td class="">29%</td>
+          
+            <td class="">28%</td>
+          
+            <td class="">28%</td>
+          
+            <td class="">30%</td>
+          
+            <td class="">29%</td>
+          
+            <td class="">27%</td>
+          
+            <td class="">27%</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Other Income', 'profit-loss', this)">
+                Other Income&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="">2,685</td>
+          
+            <td class="">2,230</td>
+          
+            <td class="">3,115</td>
+          
+            <td class="">4,995</td>
+          
+            <td class="">3,757</td>
+          
+            <td class="">4,568</td>
+          
+            <td class="">5,803</td>
+          
+            <td class="">7,627</td>
+          
+            <td class="">8,082</td>
+          
+            <td class="">4,182</td>
+          
+            <td class="">7,486</td>
+          
+            <td class="">5,328</td>
+          
+            <td class="">5,942</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              Interest
+            
+          </td>
+          
+            <td class="">16</td>
+          
+            <td class="">31</td>
+          
+            <td class="">23</td>
+          
+            <td class="">80</td>
+          
+            <td class="">13</td>
+          
+            <td class="">16</td>
+          
+            <td class="">30</td>
+          
+            <td class="">170</td>
+          
+            <td class="">743</td>
+          
+            <td class="">537</td>
+          
+            <td class="">486</td>
+          
+            <td class="">695</td>
+          
+            <td class="">726</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              Depreciation
+            
+          </td>
+          
+            <td class="">688</td>
+          
+            <td class="">803</td>
+          
+            <td class="">1,081</td>
+          
+            <td class="">1,394</td>
+          
+            <td class="">1,459</td>
+          
+            <td class="">1,575</td>
+          
+            <td class="">1,647</td>
+          
+            <td class="">1,716</td>
+          
+            <td class="">2,701</td>
+          
+            <td class="">3,053</td>
+          
+            <td class="">3,522</td>
+          
+            <td class="">3,940</td>
+          
+            <td class="">3,920</td>
+          
+        </tr>
+      
+        <tr class=" strong">
+          <td class="text">
+            
+              Profit before tax
+            
+          </td>
+          
+            <td class="">13,366</td>
+          
+            <td class="">15,703</td>
+          
+            <td class="">23,544</td>
+          
+            <td class="">24,550</td>
+          
+            <td class="">29,339</td>
+          
+            <td class="">30,066</td>
+          
+            <td class="">31,931</td>
+          
+            <td class="">40,705</td>
+          
+            <td class="">41,991</td>
+          
+            <td class="">40,902</td>
+          
+            <td class="">49,723</td>
+          
+            <td class="">51,690</td>
+          
+            <td class="">55,467</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              Tax %
+            
+          </td>
+          
+            <td class="">18%</td>
+          
+            <td class="">19%</td>
+          
+            <td class="">22%</td>
+          
+            <td class="">22%</td>
+          
+            <td class="">21%</td>
+          
+            <td class="">21%</td>
+          
+            <td class="">21%</td>
+          
+            <td class="">26%</td>
+          
+            <td class="">21%</td>
+          
+            <td class="">24%</td>
+          
+            <td class="">23%</td>
+          
+            <td class="">24%</td>
+          
+            <td class=""></td>
+          
+        </tr>
+      
+        <tr class=" strong">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Net Profit', 'profit-loss', this)">
+                Net Profit&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="">10,976</td>
+          
+            <td class="">12,786</td>
+          
+            <td class="">18,475</td>
+          
+            <td class="">19,257</td>
+          
+            <td class="">23,075</td>
+          
+            <td class="">23,653</td>
+          
+            <td class="">25,241</td>
+          
+            <td class="">30,065</td>
+          
+            <td class="">33,260</td>
+          
+            <td class="">30,960</td>
+          
+            <td class="">38,187</td>
+          
+            <td class="">39,106</td>
+          
+            <td class="">41,966</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              EPS in Rs
+            
+          </td>
+          
+            <td class="">28.04</td>
+          
+            <td class="">32.66</td>
+          
+            <td class="">47.16</td>
+          
+            <td class="">49.16</td>
+          
+            <td class="">58.55</td>
+          
+            <td class="">60.02</td>
+          
+            <td class="">65.93</td>
+          
+            <td class="">80.12</td>
+          
+            <td class="">88.64</td>
+          
+            <td class="">83.70</td>
+          
+            <td class="">104.36</td>
+          
+            <td class="">106.87</td>
+          
+            <td class="">114.69</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              Dividend Payout %
+            
+          </td>
+          
+            <td class="">45%</td>
+          
+            <td class="">34%</td>
+          
+            <td class="">34%</td>
+          
+            <td class="">80%</td>
+          
+            <td class="">37%</td>
+          
+            <td class="">39%</td>
+          
+            <td class="">38%</td>
+          
+            <td class="">37%</td>
+          
+            <td class="">82%</td>
+          
+            <td class="">45%</td>
+          
+            <td class="">41%</td>
+          
+            <td class="">108%</td>
+          
+            <td class=""></td>
+          
+        </tr>
+      
+
+      
+    </tbody>
+  </table>
+</div>
+
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 2%;">
+    <table class="ranges-table">
+      <tr>
+        <th colspan="2">Compounded Sales Growth</th>
+      </tr>
+      <tr>
+        <td>10 Years:</td>
+        <td>15%</td>
+      </tr>
+      <tr>
+        <td>5 Years:</td>
+        <td>14%</td>
+      </tr>
+      <tr>
+        <td>3 Years:</td>
+        <td>13%</td>
+      </tr>
+      <tr>
+        <td>TTM:</td>
+        <td>10%</td>
+      </tr>
+    </table>
+    <table class="ranges-table">
+      <tr>
+        <th colspan="2">Compounded Profit Growth</th>
+      </tr>
+      <tr>
+        <td>10 Years:</td>
+        <td>12%</td>
+      </tr>
+      <tr>
+        <td>5 Years:</td>
+        <td>9%</td>
+      </tr>
+      <tr>
+        <td>3 Years:</td>
+        <td>6%</td>
+      </tr>
+      <tr>
+        <td>TTM:</td>
+        <td>9%</td>
+      </tr>
+    </table>
+    <table class="ranges-table">
+      <tr>
+        <th colspan="2">Stock Price CAGR</th>
+      </tr>
+      <tr>
+        <td>10 Years:</td>
+        <td>15%</td>
+      </tr>
+      <tr>
+        <td>5 Years:</td>
+        <td>15%</td>
+      </tr>
+      <tr>
+        <td>3 Years:</td>
+        <td>9%</td>
+      </tr>
+      <tr>
+        <td>1 Year:</td>
+        <td>17%</td>
+      </tr>
+    </table>
+    <table class="ranges-table">
+      <tr>
+        <th colspan="2">Return on Equity</th>
+      </tr>
+      <tr>
+        <td>10 Years:</td>
+        <td>42%</td>
+      </tr>
+      <tr>
+        <td>5 Years:</td>
+        <td>45%</td>
+      </tr>
+      <tr>
+        <td>3 Years:</td>
+        <td>48%</td>
+      </tr>
+      <tr>
+        <td>Last Year:</td>
+        <td>52%</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<section id="balance-sheet" class="card card-large">
+  
+
+
+<div class="flex-row flex-space-between flex-gap-16">
+  <div>
+    <h2>Balance Sheet</h2>
+
+    <p class="sub" style="margin: 0;">
+      
+        Standalone Figures in Rs. Crores
+        /
+        <a href="/company/TCS/consolidated/#balance-sheet"
+           class="strong">View Consolidated</a>
+      
+    </p>
+  </div>
+
+  <div class="flex flex-gap-8"
+       style="justify-content: flex-end;
+              align-items: center">
+    
+
+    
+      <button type="button"
+              class="button-secondary button-small plausible-event-name=Corporate+Actions plausible-event-user=unregistered"
+              onclick="Modal.openInModal(event)"
+              data-title="Corporate actions"
+              data-url="/company/actions/3365/">Corporate actions</button>
+    
+  </div>
+</div>
+
+
+
+<div class="responsive-holder fill-card-width" data-result-table>
+  <table class="data-table responsive-text-nowrap">
+    <thead>
+      <tr>
+        <th class="text"></th>
+        
+          <th class="">Mar 2012</th>
+        
+          <th class="">Mar 2013</th>
+        
+          <th class="">Mar 2014</th>
+        
+          <th class="">Mar 2015</th>
+        
+          <th class="">Mar 2016</th>
+        
+          <th class="">Mar 2017</th>
+        
+          <th class="">Mar 2018</th>
+        
+          <th class="">Mar 2019</th>
+        
+          <th class="">Mar 2020</th>
+        
+          <th class="">Mar 2021</th>
+        
+          <th class="">Mar 2022</th>
+        
+          <th class="">Mar 2023</th>
+        
+          <th class="">Sep 2023</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              Equity Capital
+            
+          </td>
+          
+            <td class="">196</td>
+          
+            <td class="">196</td>
+          
+            <td class="">196</td>
+          
+            <td class="">196</td>
+          
+            <td class="">197</td>
+          
+            <td class="">197</td>
+          
+            <td class="">191</td>
+          
+            <td class="">375</td>
+          
+            <td class="">375</td>
+          
+            <td class="">370</td>
+          
+            <td class="">366</td>
+          
+            <td class="">366</td>
+          
+            <td class="">366</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              Reserves
+            
+          </td>
+          
+            <td class="">24,561</td>
+          
+            <td class="">32,267</td>
+          
+            <td class="">43,856</td>
+          
+            <td class="">45,221</td>
+          
+            <td class="">64,816</td>
+          
+            <td class="">77,825</td>
+          
+            <td class="">75,675</td>
+          
+            <td class="">78,523</td>
+          
+            <td class="">73,993</td>
+          
+            <td class="">74,424</td>
+          
+            <td class="">76,807</td>
+          
+            <td class="">74,172</td>
+          
+            <td class="">83,560</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              Preference Capital
+            
+          </td>
+          
+            <td class="">100</td>
+          
+            <td class="">100</td>
+          
+            <td class="">0</td>
+          
+            <td class="">0</td>
+          
+            <td class="">0</td>
+          
+            <td class="">0</td>
+          
+            <td class="">0</td>
+          
+            <td class="">0</td>
+          
+            <td class="">0</td>
+          
+            <td class="">0</td>
+          
+            <td class="">0</td>
+          
+            <td class="">0</td>
+          
+            <td class=""></td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Borrowings', 'balance-sheet', this)">
+                Borrowings&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="">104</td>
+          
+            <td class="">172</td>
+          
+            <td class="">115</td>
+          
+            <td class="">273</td>
+          
+            <td class="">178</td>
+          
+            <td class="">250</td>
+          
+            <td class="">225</td>
+          
+            <td class="">39</td>
+          
+            <td class="">5,262</td>
+          
+            <td class="">5,912</td>
+          
+            <td class="">5,855</td>
+          
+            <td class="">5,659</td>
+          
+            <td class="">5,797</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Other Liabilities', 'balance-sheet', this)">
+                Other Liabilities&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="">9,280</td>
+          
+            <td class="">10,052</td>
+          
+            <td class="">13,210</td>
+          
+            <td class="">17,105</td>
+          
+            <td class="">11,860</td>
+          
+            <td class="">11,172</td>
+          
+            <td class="">14,541</td>
+          
+            <td class="">20,224</td>
+          
+            <td class="">24,998</td>
+          
+            <td class="">28,310</td>
+          
+            <td class="">38,106</td>
+          
+            <td class="">39,440</td>
+          
+            <td class="">41,336</td>
+          
+        </tr>
+      
+        <tr class=" strong">
+          <td class="text">
+            
+              Total Liabilities
+            
+          </td>
+          
+            <td class="">34,141</td>
+          
+            <td class="">42,686</td>
+          
+            <td class="">57,377</td>
+          
+            <td class="">62,794</td>
+          
+            <td class="">77,051</td>
+          
+            <td class="">89,444</td>
+          
+            <td class="">90,632</td>
+          
+            <td class="">99,161</td>
+          
+            <td class="">104,628</td>
+          
+            <td class="">109,016</td>
+          
+            <td class="">121,134</td>
+          
+            <td class="">119,637</td>
+          
+            <td class="">131,059</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Fixed Assets', 'balance-sheet', this)">
+                Fixed Assets&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="">4,064</td>
+          
+            <td class="">5,104</td>
+          
+            <td class="">5,929</td>
+          
+            <td class="">7,996</td>
+          
+            <td class="">9,080</td>
+          
+            <td class="">9,231</td>
+          
+            <td class="">9,440</td>
+          
+            <td class="">9,661</td>
+          
+            <td class="">16,122</td>
+          
+            <td class="">16,059</td>
+          
+            <td class="">16,524</td>
+          
+            <td class="">15,690</td>
+          
+            <td class="">14,930</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              CWIP
+            
+          </td>
+          
+            <td class="">1,400</td>
+          
+            <td class="">1,764</td>
+          
+            <td class="">3,048</td>
+          
+            <td class="">2,707</td>
+          
+            <td class="">1,640</td>
+          
+            <td class="">1,477</td>
+          
+            <td class="">1,238</td>
+          
+            <td class="">834</td>
+          
+            <td class="">781</td>
+          
+            <td class="">861</td>
+          
+            <td class="">1,146</td>
+          
+            <td class="">1,103</td>
+          
+            <td class="">1,277</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              Investments
+            
+          </td>
+          
+            <td class="">5,688</td>
+          
+            <td class="">6,324</td>
+          
+            <td class="">5,832</td>
+          
+            <td class="">3,399</td>
+          
+            <td class="">24,159</td>
+          
+            <td class="">42,930</td>
+          
+            <td class="">37,259</td>
+          
+            <td class="">30,469</td>
+          
+            <td class="">27,875</td>
+          
+            <td class="">30,729</td>
+          
+            <td class="">31,667</td>
+          
+            <td class="">38,143</td>
+          
+            <td class="">44,179</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Other Assets', 'balance-sheet', this)">
+                Other Assets&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="">22,989</td>
+          
+            <td class="">29,493</td>
+          
+            <td class="">42,568</td>
+          
+            <td class="">48,692</td>
+          
+            <td class="">42,172</td>
+          
+            <td class="">35,806</td>
+          
+            <td class="">42,695</td>
+          
+            <td class="">58,197</td>
+          
+            <td class="">59,850</td>
+          
+            <td class="">61,367</td>
+          
+            <td class="">71,797</td>
+          
+            <td class="">64,701</td>
+          
+            <td class="">70,673</td>
+          
+        </tr>
+      
+        <tr class="stripe strong">
+          <td class="text">
+            
+              Total Assets
+            
+          </td>
+          
+            <td class="">34,141</td>
+          
+            <td class="">42,686</td>
+          
+            <td class="">57,377</td>
+          
+            <td class="">62,794</td>
+          
+            <td class="">77,051</td>
+          
+            <td class="">89,444</td>
+          
+            <td class="">90,632</td>
+          
+            <td class="">99,161</td>
+          
+            <td class="">104,628</td>
+          
+            <td class="">109,016</td>
+          
+            <td class="">121,134</td>
+          
+            <td class="">119,637</td>
+          
+            <td class="">131,059</td>
+          
+        </tr>
+      
+
+      
+    </tbody>
+  </table>
+</div>
+
+</section>
+
+<section id="cash-flow" class="card card-large">
+  
+
+
+<div class="flex-row flex-space-between flex-gap-16">
+  <div>
+    <h2>Cash Flows</h2>
+
+    <p class="sub" style="margin: 0;">
+      
+        Standalone Figures in Rs. Crores
+        /
+        <a href="/company/TCS/consolidated/#cash-flow"
+           class="strong">View Consolidated</a>
+      
+    </p>
+  </div>
+
+  <div class="flex flex-gap-8"
+       style="justify-content: flex-end;
+              align-items: center">
+    
+
+    
+  </div>
+</div>
+
+
+
+<div class="responsive-holder fill-card-width" data-result-table>
+  <table class="data-table responsive-text-nowrap">
+    <thead>
+      <tr>
+        <th class="text"></th>
+        
+          <th class="">Mar 2012</th>
+        
+          <th class="">Mar 2013</th>
+        
+          <th class="">Mar 2014</th>
+        
+          <th class="">Mar 2015</th>
+        
+          <th class="">Mar 2016</th>
+        
+          <th class="">Mar 2017</th>
+        
+          <th class="">Mar 2018</th>
+        
+          <th class="">Mar 2019</th>
+        
+          <th class="">Mar 2020</th>
+        
+          <th class="">Mar 2021</th>
+        
+          <th class="">Mar 2022</th>
+        
+          <th class="">Mar 2023</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Cash from Operating Activity', 'cash-flow', this)">
+                Cash from Operating Activity&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="">3,206</td>
+          
+            <td class="">9,157</td>
+          
+            <td class="">12,942</td>
+          
+            <td class="">16,320</td>
+          
+            <td class="">17,986</td>
+          
+            <td class="">23,132</td>
+          
+            <td class="">21,587</td>
+          
+            <td class="">23,998</td>
+          
+            <td class="">26,603</td>
+          
+            <td class="">33,822</td>
+          
+            <td class="">36,127</td>
+          
+            <td class="">37,029</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Cash from Investing Activity', 'cash-flow', this)">
+                Cash from Investing Activity&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="">433</td>
+          
+            <td class="">-3,496</td>
+          
+            <td class="">-7,143</td>
+          
+            <td class="">586</td>
+          
+            <td class="">-4,478</td>
+          
+            <td class="">-15,834</td>
+          
+            <td class="">5,728</td>
+          
+            <td class="">5,876</td>
+          
+            <td class="">12,967</td>
+          
+            <td class="">-4,539</td>
+          
+            <td class="">3,755</td>
+          
+            <td class="">3,460</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              <button class="button-plain"
+                      onclick="Company.showSchedule('Cash from Financing Activity', 'cash-flow', this)">
+                Cash from Financing Activity&nbsp;<span class="blue-icon">+</span>
+              </button>
+            
+          </td>
+          
+            <td class="">-3,897</td>
+          
+            <td class="">-5,656</td>
+          
+            <td class="">-5,684</td>
+          
+            <td class="">-16,914</td>
+          
+            <td class="">-9,586</td>
+          
+            <td class="">-10,891</td>
+          
+            <td class="">-26,827</td>
+          
+            <td class="">-27,825</td>
+          
+            <td class="">-39,045</td>
+          
+            <td class="">-32,023</td>
+          
+            <td class="">-32,797</td>
+          
+            <td class="">-47,224</td>
+          
+        </tr>
+      
+        <tr class=" strong">
+          <td class="text">
+            
+              Net Cash Flow
+            
+          </td>
+          
+            <td class="">-258</td>
+          
+            <td class="">5</td>
+          
+            <td class="">115</td>
+          
+            <td class="">-9</td>
+          
+            <td class="">3,922</td>
+          
+            <td class="">-3,593</td>
+          
+            <td class="">488</td>
+          
+            <td class="">2,049</td>
+          
+            <td class="">525</td>
+          
+            <td class="">-2,740</td>
+          
+            <td class="">7,085</td>
+          
+            <td class="">-6,735</td>
+          
+        </tr>
+      
+
+      
+    </tbody>
+  </table>
+</div>
+
+</section>
+
+<section id="ratios" class="card card-large">
+  
+
+
+<div class="flex-row flex-space-between flex-gap-16">
+  <div>
+    <h2>Ratios</h2>
+
+    <p class="sub" style="margin: 0;">
+      
+        Standalone Figures in Rs. Crores
+        /
+        <a href="/company/TCS/consolidated/#ratios"
+           class="strong">View Consolidated</a>
+      
+    </p>
+  </div>
+
+  <div class="flex flex-gap-8"
+       style="justify-content: flex-end;
+              align-items: center">
+    
+
+    
+  </div>
+</div>
+
+
+
+<div class="responsive-holder fill-card-width" data-result-table>
+  <table class="data-table responsive-text-nowrap">
+    <thead>
+      <tr>
+        <th class="text"></th>
+        
+          <th class="">Mar 2012</th>
+        
+          <th class="">Mar 2013</th>
+        
+          <th class="">Mar 2014</th>
+        
+          <th class="">Mar 2015</th>
+        
+          <th class="">Mar 2016</th>
+        
+          <th class="">Mar 2017</th>
+        
+          <th class="">Mar 2018</th>
+        
+          <th class="">Mar 2019</th>
+        
+          <th class="">Mar 2020</th>
+        
+          <th class="">Mar 2021</th>
+        
+          <th class="">Mar 2022</th>
+        
+          <th class="">Mar 2023</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              Debtor Days
+            
+          </td>
+          
+            <td class="">87</td>
+          
+            <td class="">84</td>
+          
+            <td class="">82</td>
+          
+            <td class="">85</td>
+          
+            <td class="">81</td>
+          
+            <td class="">65</td>
+          
+            <td class="">71</td>
+          
+            <td class="">71</td>
+          
+            <td class="">80</td>
+          
+            <td class="">68</td>
+          
+            <td class="">82</td>
+          
+            <td class="">82</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              Inventory Days
+            
+          </td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              Days Payable
+            
+          </td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+            <td class=""></td>
+          
+        </tr>
+      
+        <tr class=" strong">
+          <td class="text">
+            
+              Cash Conversion Cycle
+            
+          </td>
+          
+            <td class="">87</td>
+          
+            <td class="">84</td>
+          
+            <td class="">82</td>
+          
+            <td class="">85</td>
+          
+            <td class="">81</td>
+          
+            <td class="">65</td>
+          
+            <td class="">71</td>
+          
+            <td class="">71</td>
+          
+            <td class="">80</td>
+          
+            <td class="">68</td>
+          
+            <td class="">82</td>
+          
+            <td class="">82</td>
+          
+        </tr>
+      
+        <tr class="stripe">
+          <td class="text">
+            
+              Working Capital Days
+            
+          </td>
+          
+            <td class="">37</td>
+          
+            <td class="">72</td>
+          
+            <td class="">52</td>
+          
+            <td class="">34</td>
+          
+            <td class="">66</td>
+          
+            <td class="">63</td>
+          
+            <td class="">59</td>
+          
+            <td class="">68</td>
+          
+            <td class="">69</td>
+          
+            <td class="">64</td>
+          
+            <td class="">33</td>
+          
+            <td class="">27</td>
+          
+        </tr>
+      
+        <tr class="">
+          <td class="text">
+            
+              ROCE %
+            
+          </td>
+          
+            <td class="">60%</td>
+          
+            <td class="">54%</td>
+          
+            <td class="">61%</td>
+          
+            <td class="">53%</td>
+          
+            <td class="">52%</td>
+          
+            <td class="">42%</td>
+          
+            <td class="">41%</td>
+          
+            <td class="">53%</td>
+          
+            <td class="">54%</td>
+          
+            <td class="">53%</td>
+          
+            <td class="">61%</td>
+          
+            <td class="">64%</td>
+          
+        </tr>
+      
+
+      
+    </tbody>
+  </table>
+</div>
+
+</section>
+
+<section id="shareholding" class="card card-large">
+  <div class="flex flex-space-between flex-wrap margin-bottom-8 flex-align-center">
+  <div>
+    <h2 class="margin-0">Shareholding Pattern</h2>
+    <p class="sub">Numbers in percentages</p>
+  </div>
+  <div class="flex">
+    <div class="options small margin-0">
+      <button
+        onclick="Utils.setActiveTab(event)"
+        class="active"
+        data-tab-id="quarterly-shp"
+        type="button">
+        Quarterly
+      </button>
+      <button
+        onclick="Utils.setActiveTab(event)"
+        data-tab-id="yearly-shp"
+        type="button">
+        Yearly
+      </button>
+    </div>
+    
+    <div class="text-align-center margin-left-12">
+      <button
+        type="button"
+        class="button-secondary button-small"
+        onclick="Modal.openInModal(event)"
+        data-title="TCS trades"
+        data-url="/trades/company-3365/"
+      >
+        Trades
+      </button>
+      
+        <div class="ink-700 font-size-12" style="position: absolute; padding-left: 15px;">
+          5 Recently
+        </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+<div id="quarterly-shp">
+  
+
+
+  <div class="responsive-holder fill-card-width">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th class="text"></th>
+          <th>Mar 2021</th><th>Jun 2021</th><th>Sep 2021</th><th>Dec 2021</th><th>Mar 2022</th><th>Jun 2022</th><th>Sep 2022</th><th>Dec 2022</th><th>Mar 2023</th><th>Jun 2023</th><th>Sep 2023</th><th>Dec 2023</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          <tr class="stripe">
+            <td class="text">
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=promoters plausible-event-period=quarterly"
+                      onclick="Company.showShareholders('promoters', 'quarterly', this)">
+                Promoters&nbsp;<span class="blue-icon">+</span>
+              </button>
+            </td>
+            
+              <td>72.19%</td>
+            
+              <td>72.19%</td>
+            
+              <td>72.19%</td>
+            
+              <td>72.19%</td>
+            
+              <td>72.30%</td>
+            
+              <td>72.30%</td>
+            
+              <td>72.30%</td>
+            
+              <td>72.30%</td>
+            
+              <td>72.30%</td>
+            
+              <td>72.30%</td>
+            
+              <td>72.30%</td>
+            
+              <td>72.41%</td>
+            
+          </tr>
+        
+          <tr class="">
+            <td class="text">
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=foreign_institutions plausible-event-period=quarterly"
+                      onclick="Company.showShareholders('foreign_institutions', 'quarterly', this)">
+                FIIs&nbsp;<span class="blue-icon">+</span>
+              </button>
+            </td>
+            
+              <td>15.62%</td>
+            
+              <td>15.43%</td>
+            
+              <td>15.37%</td>
+            
+              <td>14.98%</td>
+            
+              <td>14.15%</td>
+            
+              <td>13.50%</td>
+            
+              <td>13.05%</td>
+            
+              <td>12.94%</td>
+            
+              <td>12.72%</td>
+            
+              <td>12.46%</td>
+            
+              <td>12.47%</td>
+            
+              <td>12.46%</td>
+            
+          </tr>
+        
+          <tr class="stripe">
+            <td class="text">
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=domestic_institutions plausible-event-period=quarterly"
+                      onclick="Company.showShareholders('domestic_institutions', 'quarterly', this)">
+                DIIs&nbsp;<span class="blue-icon">+</span>
+              </button>
+            </td>
+            
+              <td>7.83%</td>
+            
+              <td>7.97%</td>
+            
+              <td>7.89%</td>
+            
+              <td>7.93%</td>
+            
+              <td>7.81%</td>
+            
+              <td>8.36%</td>
+            
+              <td>8.53%</td>
+            
+              <td>9.25%</td>
+            
+              <td>9.58%</td>
+            
+              <td>9.80%</td>
+            
+              <td>10.01%</td>
+            
+              <td>10.03%</td>
+            
+          </tr>
+        
+          <tr class="">
+            <td class="text">
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=government plausible-event-period=quarterly"
+                      onclick="Company.showShareholders('government', 'quarterly', this)">
+                Government&nbsp;<span class="blue-icon">+</span>
+              </button>
+            </td>
+            
+              <td>0.06%</td>
+            
+              <td>0.04%</td>
+            
+              <td>0.04%</td>
+            
+              <td>0.04%</td>
+            
+              <td>0.04%</td>
+            
+              <td>0.05%</td>
+            
+              <td>0.05%</td>
+            
+              <td>0.05%</td>
+            
+              <td>0.05%</td>
+            
+              <td>0.05%</td>
+            
+              <td>0.05%</td>
+            
+              <td>0.05%</td>
+            
+          </tr>
+        
+          <tr class="stripe">
+            <td class="text">
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=public plausible-event-period=quarterly"
+                      onclick="Company.showShareholders('public', 'quarterly', this)">
+                Public&nbsp;<span class="blue-icon">+</span>
+              </button>
+            </td>
+            
+              <td>4.31%</td>
+            
+              <td>4.38%</td>
+            
+              <td>4.51%</td>
+            
+              <td>4.86%</td>
+            
+              <td>5.70%</td>
+            
+              <td>5.80%</td>
+            
+              <td>6.06%</td>
+            
+              <td>5.45%</td>
+            
+              <td>5.36%</td>
+            
+              <td>5.38%</td>
+            
+              <td>5.17%</td>
+            
+              <td>5.03%</td>
+            
+          </tr>
+        
+        <tr class="sub">
+          <td class="text">No. of Shareholders</td>
+          <td>10,58,901</td><td>11,30,834</td><td>12,28,540</td><td>15,77,358</td><td>24,74,310</td><td>25,02,385</td><td>27,03,966</td><td>25,56,970</td><td>24,99,384</td><td>25,02,835</td><td>23,67,003</td><td>23,36,016</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+<div id="yearly-shp" class="hidden">
+  
+
+
+  <div class="responsive-holder fill-card-width">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th class="text"></th>
+          <th>Mar 2017</th><th>Mar 2018</th><th>Mar 2019</th><th>Mar 2020</th><th>Mar 2021</th><th>Mar 2022</th><th>Mar 2023</th><th>Dec 2023</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          <tr class="stripe">
+            <td class="text">
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=promoters plausible-event-period=yearly"
+                      onclick="Company.showShareholders('promoters', 'yearly', this)">
+                Promoters&nbsp;<span class="blue-icon">+</span>
+              </button>
+            </td>
+            
+              <td>73.31%</td>
+            
+              <td>71.92%</td>
+            
+              <td>72.05%</td>
+            
+              <td>72.05%</td>
+            
+              <td>72.19%</td>
+            
+              <td>72.30%</td>
+            
+              <td>72.30%</td>
+            
+              <td>72.41%</td>
+            
+          </tr>
+        
+          <tr class="">
+            <td class="text">
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=foreign_institutions plausible-event-period=yearly"
+                      onclick="Company.showShareholders('foreign_institutions', 'yearly', this)">
+                FIIs&nbsp;<span class="blue-icon">+</span>
+              </button>
+            </td>
+            
+              <td>16.90%</td>
+            
+              <td>16.88%</td>
+            
+              <td>15.80%</td>
+            
+              <td>15.74%</td>
+            
+              <td>15.62%</td>
+            
+              <td>14.15%</td>
+            
+              <td>12.72%</td>
+            
+              <td>12.46%</td>
+            
+          </tr>
+        
+          <tr class="stripe">
+            <td class="text">
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=domestic_institutions plausible-event-period=yearly"
+                      onclick="Company.showShareholders('domestic_institutions', 'yearly', this)">
+                DIIs&nbsp;<span class="blue-icon">+</span>
+              </button>
+            </td>
+            
+              <td>5.36%</td>
+            
+              <td>6.93%</td>
+            
+              <td>7.78%</td>
+            
+              <td>8.00%</td>
+            
+              <td>7.83%</td>
+            
+              <td>7.81%</td>
+            
+              <td>9.58%</td>
+            
+              <td>10.03%</td>
+            
+          </tr>
+        
+          <tr class="">
+            <td class="text">
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=government plausible-event-period=yearly"
+                      onclick="Company.showShareholders('government', 'yearly', this)">
+                Government&nbsp;<span class="blue-icon">+</span>
+              </button>
+            </td>
+            
+              <td>0.05%</td>
+            
+              <td>0.05%</td>
+            
+              <td>0.05%</td>
+            
+              <td>0.06%</td>
+            
+              <td>0.06%</td>
+            
+              <td>0.04%</td>
+            
+              <td>0.05%</td>
+            
+              <td>0.05%</td>
+            
+          </tr>
+        
+          <tr class="stripe">
+            <td class="text">
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=public plausible-event-period=yearly"
+                      onclick="Company.showShareholders('public', 'yearly', this)">
+                Public&nbsp;<span class="blue-icon">+</span>
+              </button>
+            </td>
+            
+              <td>4.38%</td>
+            
+              <td>4.22%</td>
+            
+              <td>4.32%</td>
+            
+              <td>4.14%</td>
+            
+              <td>4.31%</td>
+            
+              <td>5.70%</td>
+            
+              <td>5.36%</td>
+            
+              <td>5.03%</td>
+            
+          </tr>
+        
+        <tr class="sub">
+          <td class="text">No. of Shareholders</td>
+          <td>6,37,799</td><td>5,50,651</td><td>7,23,894</td><td>8,58,825</td><td>10,58,901</td><td>24,74,310</td><td>24,99,384</td><td>23,36,016</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+
+<p class="sub small">
+  * The classifications might have changed from Sep'2022 onwards.
+  <span class="has-tooltip">
+    <i class="icon-info"></i>
+    <span class="tooltip" style="width: 300px">
+      The new XBRL format added more details from Sep'22 onwards.
+      <br>
+      <br>
+      Classifications such as banks and foreign portfolio investors were not available earlier. The sudden changes in FII or DII can be because of these changes.
+      <br>
+      <br>
+      Click on the line-items to see the names of individual entities.
+    </span>
+  </span>
+</p>
+
+
+</section>
+
+<section id="documents" class="card card-large">
+  <div class="flex flex-space-between margin-bottom-16">
+    <h2 class="margin-0">Documents</h2>
+  </div>
+
+  <div class="flex-row flex-gap-small">
+    
+    <div class="documents flex-column" style="flex: 2 1 250px;">
+      <h3 class="margin-bottom-8">Announcements</h3>
+
+      <div class="show-more-box" style="flex-basis: 300px">
+        <div id="company-announcements-tab">
+          <div class="flex">
+  <div class="options small" style="margin-bottom: 0">
+    <button
+      type="button"
+      class="active"
+      
+      onclick="Utils.ajaxLoad(event, '/announcements/recent/3365/')"
+      data-swap="#company-announcements-tab"
+    >
+      Recent
+    </button>
+    <button
+      type="button"
+      
+      
+      onclick="Utils.ajaxLoad(event, '/announcements/important/3365/')"
+      data-swap="#company-announcements-tab"
+    >
+      Important
+    </button>
+    <button
+      type="button"
+      
+      
+      onclick="Utils.ajaxLoad(event, '/announcements/search/3365/')"
+      data-swap="#company-announcements-tab"
+    >
+      Search
+    </button>
+    <a class="button" href="https://www.bseindia.com/stock-share-price/tata-consultancy-services-ltd/tcs/532540/corp-announcements/" target="_blank" rel="noopener noreferrer">
+      All
+      <i class="icon-link-ext smaller"></i>
+    </a>
+  </div>
+</div>
+
+
+  
+  <ul class="list-links">
+    
+      <li class="overflow-wrap-anywhere">
+        <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ad35e8c-76b1-4d30-948c-a20c23ced231.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+          Announcement under Regulation 30 (LODR)-Press Release / Media Release
+
+          
+            <div class="ink-600 smaller">2d - TCS to Modernize Enento Group&#x27;&#x27;s IT Infrastructure, Digital Workplace</div>
+          
+        </a>
+      </li>
+    
+      <li class="overflow-wrap-anywhere">
+        <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99DDD427_B04E_42E3_88E3_779369CF1AF5_193225.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+          Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations, 2011.
+
+          
+            <span class="ink-600 smaller">2d</span>
+          
+        </a>
+      </li>
+    
+      <li class="overflow-wrap-anywhere">
+        <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=797d3f0f-e081-4af7-9632-6dc79d53e448.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+          Announcement under Regulation 30 (LODR)-Press Release / Media Release
+
+          
+            <div class="ink-600 smaller">5 Feb - TCS to Transform Europ Assistance&#x27;&#x27;s IT Operating Model Using Artificial Intelligence and Machine Learning</div>
+          
+        </a>
+      </li>
+    
+      <li class="overflow-wrap-anywhere">
+        <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c59bf50-4173-4a41-89b5-4a7d9b33829a.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+          Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate
+
+          
+            <span class="ink-600 smaller">2 Feb</span>
+          
+        </a>
+      </li>
+    
+      <li class="overflow-wrap-anywhere">
+        <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=692bdf67-384a-4fea-80c9-57dddedcbb29.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+          Announcement under Regulation 30 (LODR)-Press Release / Media Release
+
+          
+            <div class="ink-600 smaller">1 Feb - TCS Named One of World&#x27;&#x27;s Most Admired Companies by FORTUNE Magazine</div>
+          
+        </a>
+      </li>
+    
+  </ul>
+
+
+
+
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="documents annual-reports flex-column" style="flex: 1 1 200px; max-width: 210px;">
+      <h3>Annual reports</h3>
+      <div class="show-more-box">
+        
+<ul class="list-links">
+
+  <li>
+    <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=\3837c1b7-9308-436d-9636-1d6856edf74e.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2023
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/532540/72996532540_17_06_22.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2022
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/532540/68468532540_25_05_21.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2021
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/532540/5325400320.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2020
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/532540/5325400319.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2019
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/532540/5325400318.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2018
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/532540/5325400317.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2017
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/532540/5325400316.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2016
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/532540/5325400315.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2015
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/532540/5325400314.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2014
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://archives.nseindia.com/annual_reports/AR_49_TCS_2012_2013_30052013104153.zip" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2013
+      <div class="ink-600 smaller">
+        from nse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/532540/5325400313.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2013
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/532540/5325400312.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2012
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/532540/5325400311.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2011
+      <div class="ink-600 smaller">
+        from bse
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://archives.nseindia.com/annual_reports/AR_TCS_2010_2011_16062011102522.zip" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Financial Year 2011
+      <div class="ink-600 smaller">
+        from nse
+      </div>
+    </a>
+  </li>
+
+</ul>
+
+
+      </div>
+      
+    </div>
+
+    
+    <div class="documents credit-ratings flex-column" style="flex: 1 1 200px; max-width: 220px;">
+      <h3>Credit ratings</h3>
+      <div class="show-more-box">
+        
+<ul class="list-links">
+
+  <li>
+    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=121087" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Rating update
+      <div class="ink-600 smaller">
+        24 Jul 2023 from icra
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=112038" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Rating update
+      <div class="ink-600 smaller">
+        30 May 2022 from icra
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=106448" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Rating update
+      <div class="ink-600 smaller">
+        20 Sep 2021 from icra
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=102320" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Rating update
+      <div class="ink-600 smaller">
+        30 Mar 2021 from icra
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=93380" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Rating update
+      <div class="ink-600 smaller">
+        24 Mar 2020 from icra
+      </div>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=78651" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+      Rating update
+      <div class="ink-600 smaller">
+        19 Mar 2019 from icra
+      </div>
+    </a>
+  </li>
+
+</ul>
+
+
+      </div>
+    </div>
+    
+
+    
+    <div class="documents concalls flex-column" style="flex: 2 1 250px; max-width: fit-content;">
+      <div class="flex flex-space-between flex-align-center margin-bottom-8">
+        <h3 class="margin-0">Concalls</h3>
+        <button
+          class="a font-size-12 font-weight-500 sub"
+          onclick="Modal.openInModal(event)"
+          data-url="/concalls/add-3365/"
+          data-title="TCS - Add Link"
+        >
+          <i class="icon-flag"></i>
+          <span class="underline-link">Add Missing</span>
+        </button>
+      </div>
+      <div class="show-more-box">
+        <ul class="list-links">
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Jan 2024
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=215a0356-bb8c-4b2e-8c13-4e904e90a618.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/18378912/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Jan 2024"
+    >
+      Notes
+    </button>
+    
+
+    
+    <a href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2023-24/q3/Presentations/Q3%202023-24%20Fact%20Sheet.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+    <a href="https://www.tcs.com/investor-relations/financial-statements#type=overlay&amp;page=/discover-tcs/investor-relations/overlays/management-commentary-overlays/fy24-q3-management-commentry-audio-overlay.html" class="concall-link" target="_blank" rel="noopener noreferrer">
+      REC
+    </a>
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Oct 2023
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e617aaed-ae26-4fc8-8a6e-d79f40adc7f0.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/15080779/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Oct 2023"
+    >
+      Notes
+    </button>
+    
+
+    
+    <a href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2023-24/q2/Presentations/Q2%202023-24%20Fact%20Sheet.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Jul 2023
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46524061-48f9-497c-8217-2a4ca8479900.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/12158440/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Jul 2023"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Apr 2023
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a54627e-6d57-4e58-a672-5f15cbeb3f7e.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/9207811/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Apr 2023"
+    >
+      Notes
+    </button>
+    
+
+    
+    <a href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2022-23/q4/Presentations/Q4%20FY%202022-23%20Fact%20sheet.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Jan 2023
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76ba7959-5943-41bd-9410-a53f3de41e26.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/6645203/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Jan 2023"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Oct 2022
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=745d6bd9-e798-419a-8d49-b6beef99ab47.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/4342845/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Oct 2022"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Jul 2022
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76487354-b76f-4d21-8d70-d929f6b480a9.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/2126544/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Jul 2022"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Apr 2022
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f424c104-aab6-47ba-9659-65a2ce5689e1.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/1463285/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Apr 2022"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Jan 2022
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2021-22/q3/Management%20Commentary/Transcript%20of%20the%20Q3%202021-22%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20Jan%2012,%202022.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/1326778/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Jan 2022"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Oct 2021
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2021-22/q2/Management%20Commentary/Transcript%20of%20the%20Q2%202021-22%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20Oct%208,%202021.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/1326777/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Oct 2021"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Jul 2021
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2021-22/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202021-22%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20Jul%208,%202021.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/519447/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Jul 2021"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Apr 2021
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2020-21/q4/Management%20Commentary/Transcript%20of%20the%20Q4%202020-21%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20Apr%2012,%202021.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/519446/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Apr 2021"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Feb 2021
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2020-21/q3/Management%20Commentary/Transcript%20of%20the%20Q3%202020-21%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20Jan%208,%202021.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307717/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Feb 2021"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Oct 2020
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2020-21/q2/Management%20Commentary/Transcript%20of%20the%20Q2%202020-21%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20Oct%20%207,%202020.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307716/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Oct 2020"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Jul 2020
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2020-21/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202020-21%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20July%209,%202020.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307715/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Jul 2020"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Apr 2020
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2019-20/q4/Management%20Commentary/Transcript%20of%20the%20Q4%202019-20%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20April%2016,%202020.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307714/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Apr 2020"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Jan 2020
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2019-20/q3/Management%20Commentary/Transcript%20of%20the%20Q3%202019-20%20Earnings%20Conference%20Call%20held%20at%201730%20hrs%20IST%20on%20January%2017,%202020.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307713/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Jan 2020"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Nov 2019
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2019-20/q2/Management%20Commentary/Transcript%20of%20the%20Q2%202019-20%20Earnings%20Conference%20Call%20held%20at%201900%20hrs%20IST%20on%20October%2010,%202019.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307712/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Nov 2019"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Aug 2019
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2019-20/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202019-20%20Earnings%20Conference%20Call%20held%20at%201900%20hrs%20IST%20on%20July%209,%202019.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307711/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Aug 2019"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Apr 2019
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2018-19/q4/Management%20Commentary/Transcript%20of%20the%20Q4%202018-19%20Earnings%20Conference%20Call%20held%20at%201930%20hrs%20IST%20on%20April%2012,%202019.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307710/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Apr 2019"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Jan 2019
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2018-19/q3/Management%20Commentary/Transcript%20of%20the%20Q3%202018-19%20Earnings%20Conference%20Call%20held%20at%201900%20hrs%20IST%20on%20January%2010,%202019.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307709/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Jan 2019"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Oct 2018
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2018-19/q2/Management%20Commentary/Transcript%20of%20the%20Q2%202018-19%20Earnings%20Conference%20Call%20held%20at%2019%2000%20hrs%20IST%20on%20October%2011,%202018.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307708/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Oct 2018"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Jul 2018
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2018-19/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202018-19%20Earnings%20Conference%20Call%20held%20at%2019%2000%20hrs%20IST%20on%20July%2010,%202018.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307707/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Jul 2018"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Apr 2018
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2017-18/q4/Management%20Commentary/Transcript%20of%20the%20Q4%202017-18%20Earnings%20Conference%20Call%20held%20at%2019%2000%20hrs%20IST%20on%20April%2019,%202018.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307706/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Apr 2018"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Feb 2018
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2017-18/q3/Management%20Commentary/Transcript%20of%20the%20Q3%202017-18%20Earnings%20Conference%20Call%20held%20at%2019%2000%20hrs%20IST%20on%20January%2011,%202018.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307705/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Feb 2018"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Oct 2017
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2017-18/q2/Management%20Commentary/Transcript%20of%20the%20Q2%202017-18%20Earnings%20Conference%20Call%20held%20at%2019%2000%20hrs%20IST%20on%20October%2012,%202017.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307704/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Oct 2017"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Aug 2017
+    </div>
+
+    
+    <a
+      class="concall-link"
+      href="https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2017-18/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202017-18%20Earnings%20Conference%20Call%20held%20at%2019%2000%20hrs%20IST%20on%20July%2013,%202017.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Raw Transcript"
+    >
+      Transcript
+    </a>
+    <button
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      type="button"
+      data-url="/concalls/summary/307703/"
+      onclick="Modal.openInModal(event)"
+      data-is-right-modal="true"
+      data-title="Concall Notes - Aug 2017"
+    >
+      Notes
+    </button>
+    
+
+    
+    <div class="concall-link">PPT</div>
+    
+
+    
+  </li>
+
+  <li class="flex flex-gap-8 flex-wrap">
+    <div class="ink-600 font-size-15 font-weight-500 nowrap" style="width: 74px">
+      Jan 2016
+    </div>
+
+    
+    <div class="concall-link">Transcript</div>
+    <div class="concall-link">Notes</div>
+    
+
+    
+    <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6601AB63_2D6D_4FB1_B039_2EE56EC8A7B6_081341.pdf" class="concall-link" target="_blank" rel="noopener noreferrer">
+      PPT
+    </a>
+    
+
+    
+  </li>
+
+</ul>
+
+      </div>
+    </div>
+    
+  </div>
+</section>
+<!-- cache time 2024-02-10 11:09:54 -->
+
+
+
+      </main>
+    
+
+    
+      
+
+<footer id="large-footer">
+  <div class="flex-row flex-space-between flex-column-tablet container no-print">
+    <div class="hide-from-tablet" style="margin-bottom: 16px;">
+      <img src="https://cdn-static.screener.in/img/logo-black.f44abb4998d1.svg"
+           alt="Screener Logo"
+           style="max-width: 120px"
+           class="logo">
+    </div>
+
+    <div class="show-from-tablet" style="padding: 0 64px 0 0;">
+      <img src="https://cdn-static.screener.in/img/logo-black.f44abb4998d1.svg"
+           alt="Screener Logo"
+           style="max-width: 120px"
+           class="logo">
+      <p class="font-size-19" style="font-weight: 500;">Stock analysis and screening tool</p>
+      <p class="sub">
+        Mittal Analytics Private Ltd &copy; 2009-2024
+        <br>
+        Made with <i class="icon-heart red"></i> in India.
+      </p>
+      <p class="sub font-size-13">Data provided by C-MOTS Internet Technologies Pvt Ltd</p>
+      <p class="font-size-13 sub">
+        <a href="/guides/terms/" class="underline-link">Terms</a> & <a href="/guides/privacy/" class="underline-link">Privacy</a>.
+      </p>
+    </div>
+
+    <div class="flex flex-end flex-space-between flex-grow"
+         style="max-width: 600px">
+      <div class="flex-grow">
+        <div class="title">Product</div>
+        <ul class="items">
+          <li>
+            <a href="/premium/">Premium</a>
+          </li>
+          <li>
+            <a href="/docs/changelog/">What's new?</a>
+          </li>
+          <li>
+            <a href="https://bit.ly/learnscreener">Learn</a>
+          </li>
+          <li>
+            <button class="a2hs button-secondary button-small">
+              <i class="icon-flash"></i>
+              Install
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex-grow">
+        <div class="title">Team</div>
+        <ul class="items">
+          <li>
+            <a href="/guides/about-us/">About us</a>
+          </li>
+          <li>
+            <a href="/support/">Support</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex-grow">
+        <div class="title">Theme</div>
+        <ul class="items">
+          <li>
+            <button onclick="SetTheme('light')"
+                    aria-label="Set light theme"
+                    class="button-plain">
+              <i class="icon-sun"></i>
+              Light
+            </button>
+          </li>
+          <li>
+            <button onclick="SetTheme('dark')"
+                    aria-label="Set dark theme"
+                    class="button-plain">
+              <i class="icon-moon"></i>
+              Dark
+            </button>
+          </li>
+          <li>
+            <button onclick="SetTheme('auto')"
+                    aria-label="Set auto theme"
+                    class="button-plain">
+              <i class="icon-monitor"></i>
+              Auto
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hide-from-tablet">
+      <hr>
+      <p class="sub">Mittal Analytics Private Ltd &copy; 2009-2024</p>
+      <p class="sub">Data provided by C-MOTS Internet Technologies Pvt Ltd</p>
+      <p class="sub">
+        <a href="/guides/terms/" class="underline-link">Terms</a>
+        & <a href="/guides/privacy/" class="underline-link">Privacy</a>.
+      </p>
+    </div>
+  </div>
+</footer>
+
+    
+
+    <!-- Important JS (which provide global objects)- check below too -->
+    <script src="https://cdn-static.screener.in/js/polyfill.c565c6038999.js"></script>
+    <script src="https://cdn-static.screener.in/js/dialog-polyfill.min.2b5bf9a032d2.js"></script>
+    <script src="https://cdn-static.screener.in/js/utils.8d2ec2b1b6b5.js"></script>
+    <script src="https://cdn-static.screener.in/js/modal.aec75371a318.js"></script>
+    <script src="https://cdn-static.screener.in/js/typeahead.8dcc9ac93685.js"></script>
+    <script src="https://cdn-static.screener.in/js/filter.component.5add9ef3b7a9.js"></script>
+
+    <!-- Independent JS scripts for page interactions -->
+    <script src="https://cdn-static.screener.in/js/navbar.3fe7f0f4a630.js"></script>
+    <script src="https://cdn-static.screener.in/js/company.search.f6e70e38248c.js"></script>
+    
+<script src="https://cdn-static.screener.in/js/scroll-aid.5ed2d38a133e.js"></script>
+<script src="https://cdn-static.screener.in/js/company.customisation.f49447e8c0f2.js"></script>
+<script src="https://cdn-static.screener.in/js/chart.min.10a29a29621c.js"></script>
+<script src="https://cdn-static.screener.in/js/chartjs-adapter-date-fns.bundle.min.ebae23730a6e.js"></script>
+<script src="https://cdn-static.screener.in/js/chart.cdb32c3d55d6.js"></script>
+<script src="https://cdn-static.screener.in/js/segment-result.b6af4191fd6f.js"></script>
+
+
+    <!-- Service worker installer for PWA -->
+    <script src="https://cdn-static.screener.in/js/pwa.933118758337.js"></script>
+  </body>
+</html>
