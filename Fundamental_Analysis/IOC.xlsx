@@ -311,7 +311,7 @@
             
             <hr class="no-hover">
             <form action="/logout/" method="post" style="padding: 0">
-              <input type="hidden" name="csrfmiddlewaretoken" value="kAIC7rPh5kioUZiDTGmXgFgENGsxfqPVKdpLd3RzeVv4CpJBaISdDxqM3xbznmx1">
+              <input type="hidden" name="csrfmiddlewaretoken" value="SqiC8HJEsLHlK7UmpmxcNiiDkiMSbEqEi3ZLejLWBmU1sxlkGo3saasLA9vUjA8K">
               <button type="submit"
                       class="button-plain"
                       style="width: 100%;
@@ -450,7 +450,7 @@
     </div>
 
     <form method="post" class="flex margin-0" style="align-items: center">
-      <input type="hidden" name="csrfmiddlewaretoken" value="kAIC7rPh5kioUZiDTGmXgFgENGsxfqPVKdpLd3RzeVv4CpJBaISdDxqM3xbznmx1">
+      <input type="hidden" name="csrfmiddlewaretoken" value="SqiC8HJEsLHlK7UmpmxcNiiDkiMSbEqEi3ZLejLWBmU1sxlkGo3saasLA9vUjA8K">
       <input type="hidden" name="next" value="/company/IOC/">
 
       
@@ -525,7 +525,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
         </div>
 
         <button
-          class="a upper font-weight-500 letter-spacing plausible-event-name=Key+Insight plausible-event-user=unregistered"
+          class="a upper font-weight-500 letter-spacing plausible-event-name=Key+Insight plausible-event-user=free"
           style="font-size: 1.4rem"
           type="button"
           onclick="Modal.openInModal(event)"
@@ -1025,7 +1025,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
       
         <button data-segment-button="1"
                 onclick="Segment.showSegment('quarters', '1')"
-                class="button-secondary plausible-event-name=Segment+Results plausible-event-user=unregistered">
+                class="button-secondary plausible-event-name=Segment+Results plausible-event-user=premium">
           Product Segments
         </button>
       
@@ -1480,7 +1480,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1490,7 +1490,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1500,7 +1500,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1510,7 +1510,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1520,7 +1520,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1530,7 +1530,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1540,7 +1540,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1550,7 +1550,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1560,7 +1560,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1570,7 +1570,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1580,7 +1580,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1590,7 +1590,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1600,7 +1600,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=premium">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1645,7 +1645,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
       
         <button data-segment-button="1"
                 onclick="Segment.showSegment('profit-loss', '1')"
-                class="button-secondary plausible-event-name=Segment+Results plausible-event-user=unregistered">
+                class="button-secondary plausible-event-name=Segment+Results plausible-event-user=premium">
           Product Segments
         </button>
       
@@ -2193,7 +2193,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
       </tr>
       <tr>
         <td>1 Year:</td>
-        <td>121%</td>
+        <td>119%</td>
       </tr>
     </table>
     <table class="ranges-table">
@@ -2245,7 +2245,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
 
     
       <button type="button"
-              class="button-secondary button-small plausible-event-name=Corporate+Actions plausible-event-user=unregistered"
+              class="button-secondary button-small plausible-event-name=Corporate+Actions plausible-event-user=premium"
               onclick="Modal.openInModal(event)"
               data-title="Corporate actions"
               data-url="/company/actions/1448/">Corporate actions</button>
@@ -3201,7 +3201,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
         
           <tr class="stripe">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=promoters plausible-event-period=quarterly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=premium plausible-event-classification=promoters plausible-event-period=quarterly"
                       onclick="Company.showShareholders('promoters', 'quarterly', this)">
                 Promoters&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3235,7 +3235,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
         
           <tr class="">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=foreign_institutions plausible-event-period=quarterly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=premium plausible-event-classification=foreign_institutions plausible-event-period=quarterly"
                       onclick="Company.showShareholders('foreign_institutions', 'quarterly', this)">
                 FIIs&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3269,7 +3269,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
         
           <tr class="stripe">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=domestic_institutions plausible-event-period=quarterly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=premium plausible-event-classification=domestic_institutions plausible-event-period=quarterly"
                       onclick="Company.showShareholders('domestic_institutions', 'quarterly', this)">
                 DIIs&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3303,7 +3303,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
         
           <tr class="">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=government plausible-event-period=quarterly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=premium plausible-event-classification=government plausible-event-period=quarterly"
                       onclick="Company.showShareholders('government', 'quarterly', this)">
                 Government&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3337,7 +3337,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
         
           <tr class="stripe">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=public plausible-event-period=quarterly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=premium plausible-event-classification=public plausible-event-period=quarterly"
                       onclick="Company.showShareholders('public', 'quarterly', this)">
                 Public&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3396,7 +3396,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
         
           <tr class="stripe">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=promoters plausible-event-period=yearly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=premium plausible-event-classification=promoters plausible-event-period=yearly"
                       onclick="Company.showShareholders('promoters', 'yearly', this)">
                 Promoters&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3422,7 +3422,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
         
           <tr class="">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=foreign_institutions plausible-event-period=yearly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=premium plausible-event-classification=foreign_institutions plausible-event-period=yearly"
                       onclick="Company.showShareholders('foreign_institutions', 'yearly', this)">
                 FIIs&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3448,7 +3448,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
         
           <tr class="stripe">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=domestic_institutions plausible-event-period=yearly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=premium plausible-event-classification=domestic_institutions plausible-event-period=yearly"
                       onclick="Company.showShareholders('domestic_institutions', 'yearly', this)">
                 DIIs&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3474,7 +3474,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
         
           <tr class="">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=government plausible-event-period=yearly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=premium plausible-event-classification=government plausible-event-period=yearly"
                       onclick="Company.showShareholders('government', 'yearly', this)">
                 Government&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3500,7 +3500,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
         
           <tr class="stripe">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=public plausible-event-period=yearly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=premium plausible-event-classification=public plausible-event-period=yearly"
                       onclick="Company.showShareholders('public', 'yearly', this)">
                 Public&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3684,7 +3684,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
 <ul class="list-links">
 
   <li>
-    <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae413f27-7b30-4cdb-8f1b-8d82e5914e54.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae413f27-7b30-4cdb-8f1b-8d82e5914e54.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2023
       <div class="ink-600 smaller">
         from bse
@@ -3693,7 +3693,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/74097530965.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/74097530965.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2022
       <div class="ink-600 smaller">
         from bse
@@ -3702,7 +3702,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/69218530965.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/69218530965.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2021
       <div class="ink-600 smaller">
         from bse
@@ -3711,7 +3711,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/65205530965.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/65205530965.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2020
       <div class="ink-600 smaller">
         from bse
@@ -3720,7 +3720,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650319.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650319.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2019
       <div class="ink-600 smaller">
         from bse
@@ -3729,7 +3729,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650318.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650318.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2018
       <div class="ink-600 smaller">
         from bse
@@ -3738,7 +3738,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650317.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650317.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2017
       <div class="ink-600 smaller">
         from bse
@@ -3747,7 +3747,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650316.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650316.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2016
       <div class="ink-600 smaller">
         from bse
@@ -3756,7 +3756,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650315.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650315.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2015
       <div class="ink-600 smaller">
         from bse
@@ -3765,7 +3765,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650314.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650314.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2014
       <div class="ink-600 smaller">
         from bse
@@ -3774,7 +3774,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650313.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650313.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2013
       <div class="ink-600 smaller">
         from bse
@@ -3783,7 +3783,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650312.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650312.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2012
       <div class="ink-600 smaller">
         from bse
@@ -3792,7 +3792,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650311.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650311.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2011
       <div class="ink-600 smaller">
         from bse
@@ -3801,7 +3801,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://archives.nseindia.com/annual_reports/AR_IOC_2010_2011_07092011101018.zip" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://archives.nseindia.com/annual_reports/AR_IOC_2010_2011_07092011101018.zip" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2011
       <div class="ink-600 smaller">
         from nse
@@ -3810,7 +3810,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650310.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/530965/5309650310.pdf" class="plausible-event-name=Annual+Report plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Financial Year 2010
       <div class="ink-600 smaller">
         from bse
@@ -3833,7 +3833,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
 <ul class="list-links">
 
   <li>
-    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/IndianOilCorporationLimited_February 09, 2024_RR_337185.html" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/IndianOilCorporationLimited_February 09, 2024_RR_337185.html" class="plausible-event-name=Credit+Rating plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Rating update
       <div class="ink-600 smaller">
         9 Feb from crisil
@@ -3842,7 +3842,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/IndianOilCorporationLimited_February 02, 2024_RR_335356.html" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/IndianOilCorporationLimited_February 02, 2024_RR_335356.html" class="plausible-event-name=Credit+Rating plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Rating update
       <div class="ink-600 smaller">
         2 Feb from crisil
@@ -3851,7 +3851,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=122584" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=122584" class="plausible-event-name=Credit+Rating plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Rating update
       <div class="ink-600 smaller">
         28 Sep 2023 from icra
@@ -3860,7 +3860,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/IndianOilCorporationLimited_June 27, 2023_RR_322296.html" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/IndianOilCorporationLimited_June 27, 2023_RR_322296.html" class="plausible-event-name=Credit+Rating plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Rating update
       <div class="ink-600 smaller">
         27 Jun 2023 from crisil
@@ -3869,7 +3869,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/IndianOilCorporationLimited_April 26, 2023_RR_316792.html" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/IndianOilCorporationLimited_April 26, 2023_RR_316792.html" class="plausible-event-name=Credit+Rating plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Rating update
       <div class="ink-600 smaller">
         26 Apr 2023 from crisil
@@ -3878,7 +3878,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
   </li>
 
   <li>
-    <a href="https://www.indiaratings.co.in/pressrelease/60974" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.indiaratings.co.in/pressrelease/60974" class="plausible-event-name=Credit+Rating plausible-event-user=premium" target="_blank" rel="noopener noreferrer">
       Rating update
       <div class="ink-600 smaller">
         16 Feb 2023 from fitch
@@ -3983,7 +3983,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
       Transcript
     </a>
     <button
-      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=premium"
       type="button"
       data-url="/concalls/summary/518530/"
       onclick="Modal.openInModal(event)"
@@ -4017,7 +4017,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
       Transcript
     </a>
     <button
-      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=unregistered"
+      class="concall-link plausible-event-name=Concall+Notes plausible-event-user=premium"
       type="button"
       data-url="/concalls/summary/254/"
       onclick="Modal.openInModal(event)"
@@ -4042,7 +4042,7 @@ Two of its refineries in Chennai are owned by its subsidiary Chennai Petroleum C
     
   </div>
 </section>
-<!-- cache time 2024-02-13 11:21:18 -->
+<!-- cache time 2024-02-13 16:54:28 -->
 
 
 

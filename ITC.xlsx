@@ -311,7 +311,7 @@
             
             <hr class="no-hover">
             <form action="/logout/" method="post" style="padding: 0">
-              <input type="hidden" name="csrfmiddlewaretoken" value="3IwAZGPrTPXypvynQgYD6K5oaQYnuXjltldJ5iRJ2qae7VZl7iuTtCfwqHHpCT1r">
+              <input type="hidden" name="csrfmiddlewaretoken" value="wg9hAqOh3Y92ht0HfvewfXlyiqJAT75HWTQqG2QzczmIZTrFwxKMCPvGyhsC13NN">
               <button type="submit"
                       class="button-plain"
                       style="width: 100%;
@@ -430,19 +430,19 @@
       </div>
       <div class="font-size-18 strong line-height-14">
         <div class="flex flex-align-center">
-          <span>₹ 416</span>
+          <span>₹ 407</span>
           
-          <span class="font-size-12 up margin-left-4">
-            <i class="icon-circle-up"></i>
-            0.23%
+          <span class="font-size-12 down margin-left-4">
+            <i class="icon-circle-down"></i>
+            -0.06%
           </span>
           
         </div>
         <div class="ink-600 font-size-11 font-weight-500">
           
-            09 Feb
+            13 Feb
             
-              - close price
+              4:01 p.m.
             
           
         </div>
@@ -450,7 +450,7 @@
     </div>
 
     <form method="post" class="flex margin-0" style="align-items: center">
-      <input type="hidden" name="csrfmiddlewaretoken" value="3IwAZGPrTPXypvynQgYD6K5oaQYnuXjltldJ5iRJ2qae7VZl7iuTtCfwqHHpCT1r">
+      <input type="hidden" name="csrfmiddlewaretoken" value="wg9hAqOh3Y92ht0HfvewfXlyiqJAT75HWTQqG2QzczmIZTrFwxKMCPvGyhsC13NN">
       <input type="hidden" name="next" value="/company/ITC/">
 
       
@@ -583,7 +583,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
     
       ₹
     
-    <span class="number">5,18,507</span>
+    <span class="number">5,07,401</span>
     
       Cr.
     
@@ -603,7 +603,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
     
       ₹
     
-    <span class="number">416</span>
+    <span class="number">407</span>
     
   </span>
   
@@ -631,7 +631,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
   
   <span class="nowrap value">
     
-    <span class="number">25.4</span>
+    <span class="number">24.8</span>
     
   </span>
   
@@ -665,7 +665,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
   
   <span class="nowrap value">
     
-    <span class="number">3.07</span>
+    <span class="number">3.13</span>
     
       %
     
@@ -933,7 +933,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
         
         <li>Company is almost debt free.</li>
         
-        <li>Stock is providing a good dividend yield of 3.07%.</li>
+        <li>Stock is providing a good dividend yield of 3.11%.</li>
         
         <li>Company has a good return on equity (ROE) track record: 3 Years ROE 25.1%</li>
         
@@ -947,7 +947,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
       <p class="title">Cons</p>
       <ul>
         
-        <li>Stock is trading at 7.71 times its book value</li>
+        <li>Stock is trading at 7.55 times its book value</li>
         
         <li>The company has delivered a poor sales growth of 10.2% over past five years.</li>
         
@@ -1035,7 +1035,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
       
         <button data-segment-button="1"
                 onclick="Segment.showSegment('quarters', '1')"
-                class="button-secondary plausible-event-name=Segment+Results plausible-event-user=free">
+                class="button-secondary plausible-event-name=Segment+Results plausible-event-user=unregistered">
           Product Segments
         </button>
       
@@ -1490,7 +1490,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1500,7 +1500,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1510,7 +1510,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1520,7 +1520,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1530,7 +1530,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1540,7 +1540,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1550,7 +1550,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1560,7 +1560,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1570,7 +1570,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1580,7 +1580,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1590,7 +1590,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1600,7 +1600,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1610,7 +1610,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
                  target="_blank"
                  rel="noopener noreferrer"
                  aria-label="Raw PDF"
-                 class="plausible-event-name=Quarterly+PDF plausible-event-user=free">
+                 class="plausible-event-name=Quarterly+PDF plausible-event-user=unregistered">
                 <i class="icon-file-pdf ink-600-link"></i>
               </a>
             </td>
@@ -1655,7 +1655,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
       
         <button data-segment-button="1"
                 onclick="Segment.showSegment('profit-loss', '1')"
-                class="button-secondary plausible-event-name=Segment+Results plausible-event-user=free">
+                class="button-secondary plausible-event-name=Segment+Results plausible-event-user=unregistered">
           Product Segments
         </button>
       
@@ -2199,11 +2199,11 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
       </tr>
       <tr>
         <td>3 Years:</td>
-        <td>22%</td>
+        <td>23%</td>
       </tr>
       <tr>
         <td>1 Year:</td>
-        <td>12%</td>
+        <td>9%</td>
       </tr>
     </table>
     <table class="ranges-table">
@@ -2255,7 +2255,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
 
     
       <button type="button"
-              class="button-secondary button-small plausible-event-name=Corporate+Actions plausible-event-user=free"
+              class="button-secondary button-small plausible-event-name=Corporate+Actions plausible-event-user=unregistered"
               onclick="Modal.openInModal(event)"
               data-title="Corporate actions"
               data-url="/company/actions/1552/">Corporate actions</button>
@@ -3211,7 +3211,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
         
           <tr class="stripe">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=free plausible-event-classification=foreign_institutions plausible-event-period=quarterly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=foreign_institutions plausible-event-period=quarterly"
                       onclick="Company.showShareholders('foreign_institutions', 'quarterly', this)">
                 FIIs&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3245,7 +3245,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
         
           <tr class="">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=free plausible-event-classification=domestic_institutions plausible-event-period=quarterly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=domestic_institutions plausible-event-period=quarterly"
                       onclick="Company.showShareholders('domestic_institutions', 'quarterly', this)">
                 DIIs&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3279,7 +3279,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
         
           <tr class="stripe">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=free plausible-event-classification=government plausible-event-period=quarterly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=government plausible-event-period=quarterly"
                       onclick="Company.showShareholders('government', 'quarterly', this)">
                 Government&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3313,7 +3313,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
         
           <tr class="">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=free plausible-event-classification=public plausible-event-period=quarterly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=public plausible-event-period=quarterly"
                       onclick="Company.showShareholders('public', 'quarterly', this)">
                 Public&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3372,7 +3372,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
         
           <tr class="stripe">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=free plausible-event-classification=foreign_institutions plausible-event-period=yearly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=foreign_institutions plausible-event-period=yearly"
                       onclick="Company.showShareholders('foreign_institutions', 'yearly', this)">
                 FIIs&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3398,7 +3398,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
         
           <tr class="">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=free plausible-event-classification=domestic_institutions plausible-event-period=yearly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=domestic_institutions plausible-event-period=yearly"
                       onclick="Company.showShareholders('domestic_institutions', 'yearly', this)">
                 DIIs&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3424,7 +3424,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
         
           <tr class="stripe">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=free plausible-event-classification=government plausible-event-period=yearly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=government plausible-event-period=yearly"
                       onclick="Company.showShareholders('government', 'yearly', this)">
                 Government&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3450,7 +3450,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
         
           <tr class="">
             <td class="text">
-              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=free plausible-event-classification=public plausible-event-period=yearly"
+              <button class="button-plain plausible-event-name=View+Shareholders plausible-event-user=unregistered plausible-event-classification=public plausible-event-period=yearly"
                       onclick="Company.showShareholders('public', 'yearly', this)">
                 Public&nbsp;<span class="blue-icon">+</span>
               </button>
@@ -3558,13 +3558,25 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
   <ul class="list-links">
     
       <li class="overflow-wrap-anywhere">
+        <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa1e79fd-b6ac-4cb4-a586-e10ae6bba712.pdf"
+           target="_blank"
+           rel="noopener noreferrer">
+          Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation
+
+          
+            <div class="ink-600 smaller">17h - The Company&#x27;s representatives will be attending the Kotak&#x27;s Chasing Growth 2024 Investor Conference organised by third parties on 19th February, 2024.</div>
+          
+        </a>
+      </li>
+    
+      <li class="overflow-wrap-anywhere">
         <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21a662cb-d8c2-4390-803e-597bd2877b51.pdf"
            target="_blank"
            rel="noopener noreferrer">
           Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate
 
           
-            <span class="ink-600 smaller">18h</span>
+            <span class="ink-600 smaller">9 Feb</span>
           
         </a>
       </li>
@@ -3577,7 +3589,7 @@ For FY22, India accounted for 78% of ITC's revenue while rest was from exports<s
 And Disclosure Requirements) Regulations, 2015
 
           
-            <span class="ink-600 smaller">1d</span>
+            <span class="ink-600 smaller">8 Feb</span>
           
         </a>
       </li>
@@ -3589,7 +3601,7 @@ And Disclosure Requirements) Regulations, 2015
           Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate
 
           
-            <span class="ink-600 smaller">2d</span>
+            <span class="ink-600 smaller">7 Feb</span>
           
         </a>
       </li>
@@ -3602,18 +3614,6 @@ And Disclosure Requirements) Regulations, 2015
 
           
             <div class="ink-600 smaller">5 Feb - Details of the shares dematerialised by the Company during the month of January 2024 is provided in the enclosed Annexure A. The Company was not …</div>
-          
-        </a>
-      </li>
-    
-      <li class="overflow-wrap-anywhere">
-        <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=616db9f7-d613-4a51-81aa-bf6d4cd67da5.pdf"
-           target="_blank"
-           rel="noopener noreferrer">
-          Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate
-
-          
-            <span class="ink-600 smaller">2 Feb</span>
           
         </a>
       </li>
@@ -3635,7 +3635,7 @@ And Disclosure Requirements) Regulations, 2015
 <ul class="list-links">
 
   <li>
-    <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=\139aec7a-7a7c-458f-ac5a-29f6dbe67c93.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=\139aec7a-7a7c-458f-ac5a-29f6dbe67c93.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2023
       <div class="ink-600 smaller">
         from bse
@@ -3644,7 +3644,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/73265500875.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/73265500875.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2022
       <div class="ink-600 smaller">
         from bse
@@ -3653,7 +3653,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/68921500875.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/68921500875.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2021
       <div class="ink-600 smaller">
         from bse
@@ -3662,7 +3662,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750320.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750320.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2020
       <div class="ink-600 smaller">
         from bse
@@ -3671,7 +3671,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750319.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750319.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2019
       <div class="ink-600 smaller">
         from bse
@@ -3680,7 +3680,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750318.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750318.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2018
       <div class="ink-600 smaller">
         from bse
@@ -3689,7 +3689,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750317.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750317.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2017
       <div class="ink-600 smaller">
         from bse
@@ -3698,7 +3698,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750316.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750316.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2016
       <div class="ink-600 smaller">
         from bse
@@ -3707,7 +3707,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750315.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750315.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2015
       <div class="ink-600 smaller">
         from bse
@@ -3716,7 +3716,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750314.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750314.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2014
       <div class="ink-600 smaller">
         from bse
@@ -3725,7 +3725,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://archives.nseindia.com/annual_reports/AR_78_ITC_2012_2013_14062013150845.zip" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://archives.nseindia.com/annual_reports/AR_78_ITC_2012_2013_14062013150845.zip" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2013
       <div class="ink-600 smaller">
         from nse
@@ -3734,7 +3734,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750313.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750313.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2013
       <div class="ink-600 smaller">
         from bse
@@ -3743,7 +3743,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750312.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750312.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2012
       <div class="ink-600 smaller">
         from bse
@@ -3752,7 +3752,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://archives.nseindia.com/annual_reports/AR_ITC_2011_2012_19062012102526.zip" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://archives.nseindia.com/annual_reports/AR_ITC_2011_2012_19062012102526.zip" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2012
       <div class="ink-600 smaller">
         from nse
@@ -3761,7 +3761,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750311.pdf" class="plausible-event-name=Annual+Report plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.bseindia.com/bseplus/AnnualReport/500875/5008750311.pdf" class="plausible-event-name=Annual+Report plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Financial Year 2011
       <div class="ink-600 smaller">
         from bse
@@ -3784,7 +3784,7 @@ And Disclosure Requirements) Regulations, 2015
 <ul class="list-links">
 
   <li>
-    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=123920" class="plausible-event-name=Credit+Rating plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=123920" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Rating update
       <div class="ink-600 smaller">
         30 Nov 2023 from icra
@@ -3793,7 +3793,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ITCLimited_August 25, 2023_RR_326644.html" class="plausible-event-name=Credit+Rating plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ITCLimited_August 25, 2023_RR_326644.html" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Rating update
       <div class="ink-600 smaller">
         25 Aug 2023 from crisil
@@ -3802,7 +3802,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ITCLimited_May 30, 2022_RR_285350.html" class="plausible-event-name=Credit+Rating plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ITCLimited_May 30, 2022_RR_285350.html" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Rating update
       <div class="ink-600 smaller">
         30 May 2022 from crisil
@@ -3811,7 +3811,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=108456" class="plausible-event-name=Credit+Rating plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=108456" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Rating update
       <div class="ink-600 smaller">
         30 Nov 2021 from icra
@@ -3820,7 +3820,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ITCLimited_March 22, 2021_RR_266798.html" class="plausible-event-name=Credit+Rating plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ITCLimited_March 22, 2021_RR_266798.html" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Rating update
       <div class="ink-600 smaller">
         22 Mar 2021 from crisil
@@ -3829,7 +3829,7 @@ And Disclosure Requirements) Regulations, 2015
   </li>
 
   <li>
-    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=99619" class="plausible-event-name=Credit+Rating plausible-event-user=free" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.icra.in/Rationale/ShowRationaleReport/?Id=99619" class="plausible-event-name=Credit+Rating plausible-event-user=unregistered" target="_blank" rel="noopener noreferrer">
       Rating update
       <div class="ink-600 smaller">
         27 Nov 2020 from icra
@@ -4324,7 +4324,7 @@ And Disclosure Requirements) Regulations, 2015
     
   </div>
 </section>
-<!-- cache time 2024-02-10 11:08:59 -->
+<!-- cache time 2024-02-13 11:10:52 -->
 
 
 
