@@ -12,7 +12,15 @@
 - Consider PE and PB and EPS ratios while selecting momentum stock
 2. Check Daily-Weekly and 4 hour Support and resistance
 
-### Tikam's System
+### Tikam's Experimental System
+
+####  the technicals that I use the most are:
+
+- For Trend: 50 and 200 day moving averages
+- For Momentum: Relative Strength Index
+- For Swings: MACD
+
+
 - Mean reversion
 - Hurst Exponent
 - Random Walk
@@ -22,6 +30,20 @@
 - Moving Average Optimization
 - Proxy Investing - Invest in shovels which is made for digging gold.
 - RSI + SMA
+
+- trendline - trendline breakout after a consolidation 
+- breakout
+- candle
+- catalyst: bulk block deals / short selling / news / events / new products / results
+- Proxy Investing - Invest in shovels which is made for digging gold
+
+- Mean reversion
+- Hurst Exponent
+- Random Walk
+- Monte Carlo Distribution
+- Normal Distribution
+- Markov chain analysis and prediction
+- Moving Average Optimization
 - 
 ### Bivariate analysis
 **Bivariate analysis involves examining the relationship between two variables. In the context of stock price data, bivariate analysis can be used to examine the relationship between the stock price and one or more other variables (such as volume, volatility , macroeconomic or technical indicators) in order to forecast future stock prices.**
@@ -107,5 +129,35 @@
 
 - https://github.com/hjones20/fundamental-analysis?tab=readme-ov-file
 - https://medium.com/@armand_aguilar/trading-screeners-in-python-but-sell-neutral-d1a53680a4bc
+
+
+---------------------------------------------------------------------------------------------------
+
+## --------------------------------------------------------------
+## Github quant and python tools
+
+- https://github.com/smudali/stocks-analysis/tree/main
+- https://github.com/shashankvemuri/Finance/tree/master
+- https://github.com/je-suis-tm/quant-trading/tree/master
+- https://github.com/je-suis-tm/quant-trading/
+- https://github.com/chrisconlan/algorithmic-trading-with-python
+- https://github.com/cantaro86/Financial-Models-Numerical-Methods/tree/master
+- https://github.com/je-suis-tm/quant-trading
+- https://github.com/AlphaWaveData/Jupyter-Notebooks/tree/master
+- https://github.com/mikewenner/PyQuant_Lab
+- https://github.com/adamd1985/quant_research/tree/main
+- https://github.com/matthewmercuri/finance/tree/main
+
+
+## Try on 29 jan
+
+- https://github.com/je-suis-tm/quant-trading
+- https://towardsdatascience.com/building-a-comprehensive-set-of-technical-indicators-in-python-for-quantitative-trading-8d98751b5fb
+- http://webcache.googleusercontent.com/search?q=cache:https://medium.datadriveninvestor.com/unlocking-profit-building-a-winning-pair-trading-strategy-in-python-cfc8cc30b98a&strip=0&vwsrc=1&referer=medium-parser
+- https://readmedium.com/an-algo-trading-strategy-which-made-8-371-a-python-case-study-58ed12a492dc
+- https://readmedium.com/en/https:/medium.com/@redeaddiscolll/quantitative-trading-strategies-algorithmic-trading-712f703ed16b
+- https://github.com/neurotrader888/TechnicalAnalysisAutomation/tree/main
+- https://github.com/gianlucamalato/machinelearning/tree/master
+- https://github.com/LastAncientOne/Stock_Analysis_For_Quant/tree/master/Python_Stock
 
 - https://readmedium.com/en/https:/medium.com/codex/creating-a-simple-stock-screener-in-minutes-with-python-68c888d2fbf0

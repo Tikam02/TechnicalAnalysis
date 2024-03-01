@@ -1,0 +1,1 @@
+## Hurst Exponent Theory and Notes

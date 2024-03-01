@@ -13,3 +13,11 @@ https://freedium.cfd/https://python.plainenglish.io/building-the-ultimate-tradin
 https://freedium.cfd/https://amit-ghosh.medium.com/backtest-entropy-bollinger-band-strategy-using-python-with-futures-data-e780164ebdb3
 
 https://www.qmr.ai/yfinance-library-the-definitive-guide/
+
+
+https://readmedium.com/en/https:/wire.insiderfinance.io/identifying-breakout-stocks-with-python-a-data-driven-selection-guide-d8a3d1ba172e
+https://github.com/shashankvemuri/Finance/blob/master/find_stocks/get_rsi_tickers.py
+
+https://medium.com/@redeaddiscolll
+https://medium.com/@py.chin315
+https://github.com/peiyingchin/Medium/blob/main/Trading%20strategy%20with%2055%25%20win%20chance/Trading%20strategy%20with%2055%25%20win%20chance.ipynb

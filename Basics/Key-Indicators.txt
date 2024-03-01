@@ -1,0 +1,15 @@
+# Ratios
+
+Key indicators:
+
+- EPS (Earnings Per Share) — portion of a company’s profit that is assigned to each share of its stock
+- P/E (Price to Earnings) — relationship between the stock price of a company and its per-share earnings. It helps investors determine if a stock is undervalued or overvalued relative to others in the same sector.
+- PEG (Projected Earnings Growth) — calculated by dividing a stock’s P/E by its projected 12-month forward revenue growth rate. In general, a PEG lower than 1 is a good sign, and a PEG higher than 2 indicates that a stock may be overpriced
+- FCFY (Free Cash Flow Yield) — a financial solvency ratio that compares the free cash flow per share a company is expected to earn against its market value per share. A lower ratio indicates a less attractive investment opportunity.
+- PB (Price to Book) — a**** ratio of 1 indicates the company’s shares are trading in line with its book value. A P/B higher than 1 suggests the company is trading at a premium to book value, and a - P/B lower than 1 indicates a stock that may be undervalued relative to the company’s assets.
+- ROE (Return on Equity) — provides a way for investors to evaluate how effectively a company is using its equity to generate profits. A higher ROE indicates a more efficient use of shareholder equity, which can lead to increased demand for shares and higher stock price, as well as increase in company’s profits in the future.
+- P/S (Price to Sales) — determines the fair value of a stock by utilizing a company’s market capitalization and revenue. It shows how much the market values the company’s sales, which can be effective in valuing growth stocks that have yet to turn a profit or aren’t performing as expected due to a temporary setback.
+- DPR (Dividend Payment Ratio) — a**** ratio of the total amount of dividends paid out to shareholders relative to the net income of the company.
+- DY (Dividend Yield Ratio) — a**** ratio looks at the amount paid by a company in dividends every year relative to its share price. It is an estimate of the dividend-only return of a stock investment.
+- CR (Current Ratio) — measures a company’s ability to pay off its current liabilities (payable within one year) with its current assets, such as cash, accounts receivable, and inventories. The higher the ratio, the better the company’s liquidity position.
+- Beta — is a measure of a stock’s volatility in relation to the overall market. A stock that swings more than the market over time has a beta above 1.0. If a stock moves less than the market, the stock’s beta is less than 1.0.
