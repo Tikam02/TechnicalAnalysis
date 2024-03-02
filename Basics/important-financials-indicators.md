@@ -10,3 +10,11 @@ Ratios
 6. P/E Ratio: This varies widely by industry and market conditions, but generally, a lower P/E ratio could indicate undervalued stocks. However, extremely low values may also indicate a lack of investor confidence or underlying problems within the company.
 7. P/B Ratio: Similar to the P/E ratio, a lower P/B ratio might suggest that a stock is undervalued, but this can vary by industry and other factors. A P/B ratio under 1 can indicate potential undervaluation, though context is crucial.
 8. EPS (ttm): Higher values are generally better, indicating a company's profitability. However, it's important to also consider the context of the industry and the company's growth phase.
+
+-----------------------------
+
+1. Earnings per Share (EPS)
+This is the portion of a company’s profit that is assigned to each share of its stock. It’s essentially the bottom line net income, just on a per-share basis. A growing EPS is a good sign to investors because it means that their shares are likely to be worth more.
+
+You can calculate the earnings per share of a company by dividing its total profit by the number of outstanding shares. For example – If the company reports a profit of $350 million and there are 100 million shares, then the EPS is $3.50.
+
