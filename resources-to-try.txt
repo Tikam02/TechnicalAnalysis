@@ -33,6 +33,8 @@ url - https://readmedium.com/en/https:/towardsdatascience.com/detection-of-price
 How to identify Japanese candlesticks patterns in Python
 url - https://readmedium.com/en/https:/towardsdatascience.com/how-to-identify-japanese-candlesticks-patterns-in-python-b835d1cc72f7
 
+
+
 Detect candlestick patterns using TA-Lib and Python
 url - https://www.conorjohanlon.com/detect-candlestick-patterns-using-ta-lib-and-python/
 
@@ -64,5 +66,15 @@ google finance
 https://github.com/hongtaocai/googlefinance
 
 
+## Medium
+
+https://medium.com/@sugath.mudali
+https://medium.com/@dannygrovesn7
+
+
+
+## Portfolio optimization and risk management
+https://medium.com/@ethan.duong1120/python-powered-portfolio-optimization-achieving-target-returns-through-weight-optimization-fc5163e5c9c6
+https://medium.com/@ethan.duong1120/applied-python-to-calculate-2-assets-portfolio-risk-49d3f9fb7837
 
 
