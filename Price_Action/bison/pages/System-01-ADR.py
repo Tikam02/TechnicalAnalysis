@@ -74,12 +74,16 @@ def plot_charts(data, ticker):
     return fig
 
 def main():
-    st.title('Stock Screener')
+    st.title('ADR Strategy Scanner')
+
+    start_date = st.date_input("Select start date", pd.to_datetime('2023-01-01'))
+    end_date = st.date_input("Select end date", pd.to_datetime('2024-03-17'))
 
     # File selection
     uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
 
-    if uploaded_file is not None:
+    # Submit button
+    if st.button('Submit') and uploaded_file is not None:
         df = pd.read_csv(uploaded_file)
 
         # Show a spinner while processing the data
@@ -89,7 +93,7 @@ def main():
 
             for ticker in df['Symbol']:
                 try:
-                    data = yf.download(ticker, start='2023-01-01', end='2024-03-17')
+                    data = yf.download(ticker, start=start_date, end=end_date)
                     data['ADR'] = calculate_ADR(data)
                     data['Modified_ADR'] = calculate_modified_ADR(data)
 

@@ -4,18 +4,21 @@ import matplotlib.pyplot as plt
 import yfinance as yf
 
 def main():
-    st.title("Stock Analysis")
+    st.title("Volume Ratio Analysis")
+
+    start_date = st.date_input("Select start date", pd.to_datetime('2023-01-01'))
+    end_date = st.date_input("Select end date", pd.to_datetime('2024-03-17'))
 
     # Input field for ticker symbol
     ticker = st.text_input("Enter Ticker Symbol", value='BCLIND.NS')
 
     # Check if the user has entered a ticker symbol
-    if ticker:
+    if st.button('Submit') and  ticker:
         # Define the percentile threshold
         percentile_threshold = 0.97
 
         # Fetch the data
-        data = yf.download(ticker, start='2023-01-01', end='2024-03-11')
+        data = yf.download(ticker, start=start_date, end=end_date)
 
         # Compute moving averages
         data['50_day_MA'] = data['Close'].rolling(window=50).mean()

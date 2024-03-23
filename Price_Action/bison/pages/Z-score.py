@@ -62,22 +62,23 @@ def plot_data(close_prices, z_scores_data, ticker_symbol, z_thresh):
     st.pyplot(fig)
 
 def main():
-    st.title("Stock Analysis")
+    st.title("Z-Score Analysis")
 
     # User inputs
     ticker_symbol = st.text_input("Enter Ticker Symbol", "BCLIND.NS")
     start_date = st.date_input("Start Date", value=pd.to_datetime('2022-01-01'))
     end_date = st.date_input("End Date", value=pd.to_datetime('2024-03-11'))
     z_thresh = st.slider("Z Threshold", min_value=0, max_value=10, value=2)
-
-    # Fetch the historical data for the ticker symbol
-    ticker_data = fetch_data(ticker_symbol, start_date, end_date)
-
-    # Calculate Z-scores for the specified periods
-    z_scores_data = calculate_z_scores(ticker_data['Close'], PERIODS)
-
-    # Plot the close prices and Z-scores
-    plot_data(ticker_data['Close'], z_scores_data, ticker_symbol, z_thresh)
+    
+    if st.button('Submit'):
+        # Fetch the historical data for the ticker symbol
+        ticker_data = fetch_data(ticker_symbol, start_date, end_date)
+    
+        # Calculate Z-scores for the specified periods
+        z_scores_data = calculate_z_scores(ticker_data['Close'], PERIODS)
+    
+        # Plot the close prices and Z-scores
+        plot_data(ticker_data['Close'], z_scores_data, ticker_symbol, z_thresh)
 
 if __name__ == "__main__":
     main()

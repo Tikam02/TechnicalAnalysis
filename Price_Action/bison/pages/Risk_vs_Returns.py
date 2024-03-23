@@ -82,33 +82,34 @@ def display_risk_returns_table(rets):
     st.write(risk_returns_table)
 
 # Streamlit app
-st.title("Stock Portfolio Analysis")
+st.title("Risk Vs Returns Analysis")
 
 # User input for stock symbols
 stock_symbols = st.text_input("Enter stock symbols (comma-separated)", value="BCLIND.NS, HSCL.NS, GPPL.NS, FCL.NS, HDFCBANK.NS")
-symbols = [symbol.strip() for symbol in stock_symbols.split(",")]
-
-# Get stock data
-stock_data = get_stock_data(symbols)
-
-# Calculate returns
-returns = calculate_returns(stock_data)
-
-# Plot visualizations
-st.subheader("Scatter Matrix")
-plot_scatter_matrix(returns)
-
-st.subheader("Correlation Matrix Heatmap")
-plot_correlation_heatmap(returns)
-
-st.subheader("Risk and Average Returns")
-plot_risk_returns(returns)
-
-st.subheader("Stacked Bar Chart: Risk vs Average Returns")
-plot_stacked_risk_returns(returns, symbols)
-
-st.subheader("Scatter Plot: Expected Returns vs Risk")
-plot_expected_returns_risk(returns)
-
-st.subheader("Risk vs Expected Returns Table")
-display_risk_returns_table(returns)
+if st.button('Submit'):
+    symbols = [symbol.strip() for symbol in stock_symbols.split(",")]
+    
+    # Get stock data
+    stock_data = get_stock_data(symbols)
+    
+    # Calculate returns
+    returns = calculate_returns(stock_data)
+    
+    # Plot visualizations
+    st.subheader("Scatter Matrix")
+    plot_scatter_matrix(returns)
+    
+    st.subheader("Correlation Matrix Heatmap")
+    plot_correlation_heatmap(returns)
+    
+    st.subheader("Risk and Average Returns")
+    plot_risk_returns(returns)
+    
+    st.subheader("Stacked Bar Chart: Risk vs Average Returns")
+    plot_stacked_risk_returns(returns, symbols)
+    
+    st.subheader("Scatter Plot: Expected Returns vs Risk")
+    plot_expected_returns_risk(returns)
+    
+    st.subheader("Risk vs Expected Returns Table")
+    display_risk_returns_table(returns)
