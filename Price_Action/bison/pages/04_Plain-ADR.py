@@ -57,28 +57,31 @@ def plot_charts(data, ticker):
 def main():
     st.title('Plain ADR Scanner')
 
-    # User input for start and end dates
-    start_date = st.date_input("Select start date", pd.to_datetime('2023-01-01'))
-    end_date = st.date_input("Select end date", pd.to_datetime('2024-03-17'))
+    with st.form(key='my_form'):
+        # User input for start and end dates
+        start_date = st.date_input("Select start date", pd.to_datetime('2023-01-01'))
+        end_date = st.date_input("Select end date", pd.to_datetime('2024-03-17'))
 
-    # File selection
-    uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
+        # File selection
+        uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
 
-    if st.button('Submit') and uploaded_file is not None:
+        # Submit button within the form
+        submit_button = st.form_submit_button("Submit")
+
+    if submit_button and uploaded_file is not None:
         df = pd.read_csv(uploaded_file)
-
-        # Empty DataFrame to store results
-        plain_adr_results_list = []
-
-        # Submit button
-        if st.button('Submit'):
+        
+        with st.spinner("Processing data..."):
+            # Empty DataFrame to store results
+            plain_adr_results_list = []
+    
             for ticker in df['Symbol']:
                 try:
                     data = yf.download(ticker, start=start_date, end=end_date)
                     adr = calculate_ADR(data)
                     modified_adr = calculate_modified_ADR(data)
                     rsi = calculate_RSI(data)
-
+    
                     # Check condition: ADR > 5
                     if adr.iloc[-1] > 5:
                         plain_adr_results_list.append({'Stock': ticker,
@@ -90,26 +93,21 @@ def main():
                 except Exception as e:
                     print(f"Error processing {ticker}: {e}")
 
-            # Create DataFrame from results list
-            plain_adr_results_df = pd.DataFrame(plain_adr_results_list)
+        # Create DataFrame from results list
+        plain_adr_results_df = pd.DataFrame(plain_adr_results_list)
 
-            # Display the filtered stocks in a table
-            st.subheader('Filtered Stocks')
-            st.write(plain_adr_results_df)
+        # Display the filtered stocks in a table
+        st.subheader('Filtered Stocks')
+        st.write(plain_adr_results_df)
 
-            # Dropdown menu for selecting stocks
-            selected_stock = st.selectbox("Select a stock", plain_adr_results_df['Stock'])
+        plain_adr_results_df.to_csv("./Data/plain_adr_results.csv", index=False)
+        st.success("Results saved to results.csv")
 
-            if selected_stock:
-                try:
-                    selected_data = yf.download(selected_stock, start=start_date, end=end_date)
-                    fig = plot_charts(selected_data, selected_stock)
 
-                    # Display the chart
-                    st.subheader(f"Charts for {selected_stock}")
-                    st.pyplot(fig)
-                except Exception as e:
-                    st.error(f"Error processing {selected_stock}: {e}")
 
 if __name__ == "__main__":
     main()
+
+
+
+

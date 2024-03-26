@@ -74,7 +74,7 @@ def plot_charts(data, ticker):
     return fig
 
 def main():
-    st.title('ADR Strategy Scanner')
+    st.title('Qualamaggie ADR Strategy Scanner')
 
     start_date = st.date_input("Select start date", pd.to_datetime('2023-01-01'))
     end_date = st.date_input("Select end date", pd.to_datetime('2024-03-17'))
@@ -111,20 +111,15 @@ def main():
         # Create DataFrame from results list
         scanner_results = pd.DataFrame(scanner_results_list)
 
-        # Dropdown menu for selecting stocks
-        selected_stock = st.selectbox("Select a stock", scanner_results['Ticker'])
-
-        if selected_stock:
-            selected_data = yf.download(selected_stock, start='2023-01-01', end='2024-03-17')
-            fig = plot_charts(selected_data, selected_stock)
-
-            # Display the charts
-            st.subheader(f"Charts for {selected_stock}")
-            st.pyplot(fig)
 
         # Displaying the results
         st.subheader("Filtered Stocks")
         st.write(scanner_results[['Ticker', 'Close', 'ADR', 'RSI', 'Modified_ADR', 'Volume']])
+
+     
+        scanner_results.to_csv("./Data/qm_adr_results.csv", index=False)
+        st.success("Results saved to results.csv")
+        
 
 if __name__ == "__main__":
     main()

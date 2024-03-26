@@ -4,6 +4,7 @@ import yfinance as yf
 import ta
 
 # Function to apply the scanner conditions to a single stock
+@st.cache_data
 def apply_scanner_conditions(stock_data):
     # Calculate 52-week high and low
     lo = stock_data['Low'].min()
@@ -74,4 +75,10 @@ if submit_button:
         # Display pass results
         st.subheader("Stocks that passed the scanner conditions:")
         st.write(pass_results)
+
+     
+        pass_results.to_csv("./Data/mm_results.csv", index=False)
+        st.success("Results saved to results.csv")
+
+
 
