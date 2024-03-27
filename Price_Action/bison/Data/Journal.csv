@@ -1,3 +1,4 @@
-Trade Type,Stock Name,Price,Date,Quantity,Reason,Strategy
-Exit,a,25.0,2024-03-27,1,kkk,kkk
-Exit,ss,52.0,2024-03-27,1,kkk,kkk
+Trade Type,Stock Name,Price,Date,Quantity,Reason,Strategy,Image
+Entry,a,1.0,2024-03-28,1,1,1,./Data/a_2024-03-28_Entry_image.jpg
+Exit,b,1.0,2024-03-28,1,1,1,./Data/b_2024-03-28_Exit_image.jpg
+Entry,c,3.0,2024-03-28,3,3,3,./Data/c_2024-03-28_Entry_image.jpg
