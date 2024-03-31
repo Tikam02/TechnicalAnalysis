@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import yfinance as yf
 import ta
+import os
 
 # Function to apply the scanner conditions to a single stock
 @st.cache_data
@@ -76,9 +77,10 @@ if submit_button:
         st.subheader("Stocks that passed the scanner conditions:")
         st.write(pass_results)
 
-     
-        pass_results.to_csv("./Data/mm_results.csv", index=False)
-        st.success("Results saved to results.csv")
-
+        # Save the pass results to a CSV file with the same name as the input file
+        input_file_name = uploaded_file.name
+        output_file_path = os.path.join("./Data", f"MM_{input_file_name}")
+        pass_results.to_csv(output_file_path, index=False)
+        st.success(f"Results saved to {output_file_path}")
 
 

@@ -4,12 +4,20 @@ import yfinance as yf
 from datetime import datetime, timedelta
 import numpy as np
 import plotly.graph_objects as go
+import os
 
 class StockAnalyzer:
     def __init__(self):
         pass
 
-    def analyze_stocks(self, symbols_df, start_date, end_date, sma1, sma2, sma3, ema1, ema2):
+    def analyze_stocks(self, symbols_df, start_date, end_date, sma1, sma2, sma3, ema1, ema2,input_file_name):
+
+        # Specify the path to the output folder
+        output_folder = "./Data"
+
+        # Create the output folder if it doesn't exist
+        if not os.path.exists(output_folder):
+            os.makedirs(output_folder)
         # Create a DataFrame for storing results
         results_df = pd.DataFrame(columns=['Stock Symbol', 'Close Price', f'SMA {sma1}', f'SMA {sma2}', f'SMA {sma3}', 
                                            f'EMA {ema1}', f'EMA {ema2}', 'SMA Crossover Percentage', 'EMA Crossover Percentage', 'Close vs SMA',
@@ -82,6 +90,10 @@ class StockAnalyzer:
             except Exception as e:
                 st.write(f"Error analyzing {ticker_symbol}: {e}")
 
+        # Save the output DataFrame to a CSV file with the same name as the input file
+        file_name = os.path.join(output_folder, f"BNF_{input_file_name}")
+        results_df.to_csv(file_name, index=False)
+
         return results_df
 
 if __name__ == "__main__":
@@ -104,10 +116,10 @@ if __name__ == "__main__":
         if st.button('Submit'):
             
             analyzer = StockAnalyzer()
-            results = analyzer.analyze_stocks(symbols_df, start_date, end_date, sma1, sma2, sma3, ema1, ema2)
+            results = analyzer.analyze_stocks(symbols_df, start_date, end_date, sma1, sma2, sma3, ema1, ema2,uploaded_file.name)
 
-            # Save the output DataFrame to a CSV file
-            results.to_csv("./Data/bnf_results.csv", index=False)
+            # # Save the output DataFrame to a CSV file
+            # results.to_csv("./Data/bnf_results.csv", index=False)
             st.success("Results saved to results.csv")
 
             # Convert 'Positive Incline Percentage' to numeric

@@ -3,6 +3,13 @@ import yfinance as yf
 import pandas as pd
 import matplotlib.pyplot as plt
 import io
+import os
+from datetime import datetime, timedelta
+
+
+
+# Define the path to the data folder
+DATA_FOLDER = "./Data"
 
 # Function to calculate Average Daily Range (ADR)
 def calculate_ADR(data):
@@ -28,31 +35,31 @@ def calculate_RSI(data, window=14):
     return rsi
 
 # Function to plot the charts
-def plot_charts(data, ticker):
-    rsi = calculate_RSI(data)
-    sma_44 = data['Close'].rolling(window=44).mean()
-    ema_25 = data['Close'].ewm(span=25, adjust=False).mean()
+# def plot_charts(data, ticker):
+#     rsi = calculate_RSI(data)
+#     sma_44 = data['Close'].rolling(window=44).mean()
+#     ema_25 = data['Close'].ewm(span=25, adjust=False).mean()
 
-    fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 8), sharex=True)
+#     fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 8), sharex=True)
 
-    ax1.plot(data.index, data['Close'], label='Close')
-    ax1.plot(data.index, sma_44, label='44 SMA')
-    ax1.set_title(f'{ticker} Price and 44 SMA')
-    ax1.legend()
+#     ax1.plot(data.index, data['Close'], label='Close')
+#     ax1.plot(data.index, sma_44, label='44 SMA')
+#     ax1.set_title(f'{ticker} Price and 44 SMA')
+#     ax1.legend()
 
-    ax2.plot(data.index, rsi, color='r', label='RSI')
-    ax2.axhline(30, linestyle='--', color='r', label='Oversold')
-    ax2.axhline(70, linestyle='--', color='r', label='Overbought')
-    ax2.set_title('RSI')
-    ax2.legend()
+#     ax2.plot(data.index, rsi, color='r', label='RSI')
+#     ax2.axhline(30, linestyle='--', color='r', label='Oversold')
+#     ax2.axhline(70, linestyle='--', color='r', label='Overbought')
+#     ax2.set_title('RSI')
+#     ax2.legend()
 
-    ax3.plot(data.index, data['Close'], label='Close')
-    ax3.plot(data.index, ema_25, label='25 EMA')
-    ax3.set_title(f'{ticker} Price and 25 EMA')
-    ax3.legend()
+#     ax3.plot(data.index, data['Close'], label='Close')
+#     ax3.plot(data.index, ema_25, label='25 EMA')
+#     ax3.set_title(f'{ticker} Price and 25 EMA')
+#     ax3.legend()
 
-    plt.tight_layout()
-    return fig
+#     plt.tight_layout()
+#     return fig
 
 def main():
     st.title('Plain ADR Scanner')
@@ -60,7 +67,7 @@ def main():
     with st.form(key='my_form'):
         # User input for start and end dates
         start_date = st.date_input("Select start date", pd.to_datetime('2023-01-01'))
-        end_date = st.date_input("Select end date", pd.to_datetime('2024-03-17'))
+        end_date = st.date_input("Select end date",  datetime.now())
 
         # File selection
         uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
@@ -70,6 +77,9 @@ def main():
 
     if submit_button and uploaded_file is not None:
         df = pd.read_csv(uploaded_file)
+
+        # Extract the input file name
+        input_file_name = os.path.splitext(uploaded_file.name)[0]
         
         with st.spinner("Processing data..."):
             # Empty DataFrame to store results
@@ -100,8 +110,12 @@ def main():
         st.subheader('Filtered Stocks')
         st.write(plain_adr_results_df)
 
-        plain_adr_results_df.to_csv("./Data/plain_adr_results.csv", index=False)
-        st.success("Results saved to results.csv")
+        # Save results to CSV with input file name
+        output_file_name = f"Plain_ADR_{input_file_name}.csv"
+        plain_adr_results_df.to_csv(os.path.join(DATA_FOLDER, output_file_name), index=False)
+        st.success(f"Results saved to {output_file_name}")
+        
+
 
 
 
