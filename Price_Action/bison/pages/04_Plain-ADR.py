@@ -94,7 +94,7 @@ def main():
     
                     # Check condition: ADR > 5
                     if adr.iloc[-1] > 5:
-                        plain_adr_results_list.append({'Stock': ticker,
+                        plain_adr_results_list.append({'Symbol': ticker,
                                                        'Close': round(data['Close'].iloc[-1], 2),
                                                        'Volume': round(data['Volume'].iloc[-1], 2),
                                                        'ADR': round(adr.iloc[-1], 2),

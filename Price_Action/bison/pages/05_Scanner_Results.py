@@ -1,72 +1,34 @@
-
-# # Function to read and display a CSV file
-# def display_csv_file(uploaded_file, header):
-#     if uploaded_file is not None:
-#         # Read the CSV file into a pandas DataFrame
-#         df = pd.read_csv(uploaded_file)
-        
-#         # Display the header
-#         st.subheader(header)
-        
-#         # Display the DataFrame as a table
-#         st.table(df)
-
-# # Upload CSV files
-# uploaded_file_a = st.file_uploader("Upload CSV file A", type=["csv"])
-# uploaded_file_b = st.file_uploader("Upload CSV file B", type=["csv"])
-
-# # Display the contents of the uploaded CSV files
-# display_csv_file(uploaded_file_a, "Header A")
-# display_csv_file(uploaded_file_b, "Header B")
-
-
-# import streamlit as st
-# import pandas as pd
-
-# # Function to read and display a CSV file
-# def display_csv_file(file_path, header):
-#     # Read the CSV file into a pandas DataFrame
-#     df = pd.read_csv(file_path)
-    
-#     # Display the header
-#     st.subheader(header)
-    
-#     # Display the DataFrame as an interactive table
-#     st.dataframe(df)
-
-# # Define the file paths for the CSV files
-# file_path_a = "./Data/bnf_results.csv"
-# file_path_b = "./Data/mm_results.csv"
-# file_path_c = "./Data/plain_adr_results.csv"
-# file_path_d = "./Data/qm_adr_results.csv"
-
-# # Display the contents of the predefined CSV files
-# display_csv_file(file_path_a, "BNF Scanner Results")
-# display_csv_file(file_path_b, "Mark Minervini Results")
-# display_csv_file(file_path_c, "Plain ADR Results")
-# display_csv_file(file_path_d, "Quallamaggie ADR Results")
-
-import streamlit as st
 import pandas as pd
+import streamlit as st
+import os
 
 # Function to read and display CSV file
-def read_csv_file(file_path):
-    df = pd.read_csv(file_path)
-    return df
+def read_csv_file(file_paths):
+    dfs = []
+    for file_path in file_paths:
+        df = pd.read_csv(file_path)
+        dfs.append(df)
+    return dfs
 
 def main():
     st.title("ADR File Viewer")
 
-    # Dropdown to select CSV file
-    csv_files = ["mm_results.csv", "qm_adr_results.csv", "plain_adr_results.csv"]  # Add your CSV file names here
-    selected_file = st.selectbox("Select CSV file", csv_files)
+    # Get list of CSV files in the 'Data' folder and sort them by name
+    data_folder = "./Data"
+    csv_files = sorted([file for file in os.listdir(data_folder) if file.endswith(".csv")])
 
-    # Read and display the selected CSV file
-    file_path = f"./Data/{selected_file}"  # Assuming CSV files are in the 'data' folder
-    df = read_csv_file(file_path)
-    
-    st.subheader("CSV File Content:")
-    st.write(df)
+    # Multi-select dropdown to select CSV files
+    selected_files = st.multiselect("Select CSV files", csv_files)
+
+    if selected_files:
+        # Read and display the selected CSV files
+        file_paths = [os.path.join(data_folder, file) for file in selected_files]
+        dfs = read_csv_file(file_paths)
+        
+        st.subheader("CSV File Content:")
+        for i, (file_name, df) in enumerate(zip(selected_files, dfs)):
+            st.write(f"File {i + 1}: {file_name}")
+            st.write(df)
 
 if __name__ == "__main__":
     main()
