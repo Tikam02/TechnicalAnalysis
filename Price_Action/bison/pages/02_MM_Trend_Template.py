@@ -3,6 +3,7 @@ import pandas as pd
 import yfinance as yf
 import ta
 import os
+import time  # Importing the time module
 
 # Function to apply the scanner conditions to a single stock
 @st.cache_data
@@ -55,10 +56,14 @@ if submit_button:
     if uploaded_file is not None:
         # Read stock symbols from the uploaded CSV file
         stock_symbols = read_stock_symbols_from_csv(uploaded_file)
+        total_rows = len(stock_symbols)
+
+        # Define progress bar
+        progress_bar = st.progress(0)
 
         # Apply scanner conditions to each stock
         scanner_results = {}
-        for symbol in stock_symbols:
+        for i, symbol in enumerate(stock_symbols, start=1):
             try:
                 # Get stock data from yfinance
                 stock_data = yf.download(symbol, start=start_date, end=end_date)
@@ -66,6 +71,10 @@ if submit_button:
                 scanner_results[symbol] = 'Pass' if result else 'Fail'
             except Exception as e:
                 st.error(f"Error processing {symbol}: {e}")
+
+            # Update progress bar
+            progress_percent = int(i / total_rows * 100)
+            progress_bar.progress(progress_percent)
 
         # Create a DataFrame from the scanner results
         df_results = pd.DataFrame(list(scanner_results.items()), columns=['Symbol', 'Result'])
@@ -82,5 +91,3 @@ if submit_button:
         output_file_path = os.path.join("./Data", f"MM_{input_file_name}")
         pass_results.to_csv(output_file_path, index=False)
         st.success(f"Results saved to {output_file_path}")
-
-
