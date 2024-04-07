@@ -1,0 +1,70 @@
+https://www.nseindia.com/api/live-analysis-52Week-hlsummary
+https://www.nseindia.com/api/live-analysis-52Week?index=low
+https://www.nseindia.com/api/marketStatus
+https://www.nseindia.com/products/dynaContent/equities/equities/json/online52NewHigh.json
+https://www.nseindia.com/products/dynaContent/equities/equities/json/mostActiveMonthly.json
+
+
+##tools
+
+https://github.com/skamranahmed/indian-ticker-cli/tree/master
+https://pypi.org/project/ind-ticker/
+https://github.com/pranjal-joshi/Screeni-py?tab=readme-ov-file
+https://github.com/sumittttttt/Stock-market-prediction-and-screener
+
+
+
+-----
+
+
+- Band hitters - https://www.nseindia.com/api/live-analysis-price-band-hitter
+- Live analysis of 52 week stocks - https://www.nseindia.com/api/live-analysis-52weekhighstock
+
+- Market snapshot - https://www.nseindia.com/api/snapshot-capital-market-ews
+- Circulars - https://www.nseindia.com/api/circulars
+- Latest Circulars - https://www.nseindia.com/api/latest-circular
+
+- Chart Data by index - https://www.nseindia.com/api/chart-databyindex?index=NIFTY%2050&indices=true&preopen=true
+- Chart Data Nifty next 250 - https://www.nseindia.com/api/chart-databyindex?index=NIFTY%20NEXT%2050&indices=true&preopen=true
+- Chart Nifty midcap - https://www.nseindia.com/api/chart-databyindex?index=NIFTY%20MIDCAP%20SELECT&indices=true&preopen=true
+- Chart Nifty bank - https://www.nseindia.com/api/chart-databyindex?index=NIFTY%20BANK&indices=true&preopen=true
+- Chart data nifty financial index - https://www.nseindia.com/api/chart-databyindex?index=NIFTY%20FINANCIAL%20SERVICES&indices=true&preopen=true
+- Market turnover - https://www.nseindia.com/api/market-turnover
+
+
+- Equity Nifty 50 -  https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%2050
+- https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20NEXT%2050
+- Equity master  - https://www.nseindia.com/api/equity-master
+- Index names - https://www.nseindia.com/api/index-names
+- API All indices - https://www.nseindia.com/api/allIndices
+- Block deals - https://www.nseindia.com/api/block-deal
+- ETFs - https://www.nseindia.com/json/exchange-traded-funds.json
+- Equity meta info - https://www.nseindia.com/api/equity-meta-info?symbol=OIL
+- Special pre-opening listing - https://www.nseindia.com/api/special-preopen-listing
+- Quote equity - https://www.nseindia.com/api/quote-equity?symbol=OIL
+- Equity Trade info - https://www.nseindia.com/api/quote-equity?symbol=OIL&section=trade_info
+- Equity Corporate Disclosure - https://www.nseindia.com/api/cmsNote?url=get-quotes-equity-corporate-disclosures
+- https://www.nseindia.com/api/corp-info?symbol=OIL&corpType=announcement&market=equities
+- Board Meetings - https://www.nseindia.com/api/corp-info?symbol=OIL&corpType=boardmeeting&market=equities
+- https://www.nseindia.com/json/quotes/board-meetings.json
+- Corporate Actions - https://www.nseindia.com/api/corp-info?symbol=OIL&corpType=corpactions&market=equities
+- Daily Buy back - https://www.nseindia.com/api/corp-info?symbol=OIL&corpType=dailybuyback&market=equities
+- Financial Results - https://www.nseindia.com/api/corp-info?symbol=OIL&corpType=financialResult&market=equities
+- Insider Trading - https://www.nseindia.com/api/corp-info?symbol=OIL&corpType=insidertrading&market=equities
+- Promoter Details - https://www.nseindia.com/api/corp-info?symbol=OIL&corpType=promoterenc&market=equities
+- Shareholding patterns - https://www.nseindia.com/api/corp-info?symbol=OIL&corpType=shp&market=equities
+- Voting results - https://www.nseindia.com/api/corp-info?symbol=OIL&corpType=votingresults&market=equities
+- Historical data - https://www.nseindia.com/api/historical/cm/equity/series?symbol=OIL
+- https://www.nseindia.com/api/historical/cm/equity?symbol=OIL
+- Date filter historical data - https://www.nseindia.com/api/historical/cm/equity?symbol=OIL&series=[%22EQ%22]&from=13-12-2023&to=29-12-2023
+- Bulk Block deals of equity - https://www.nseindia.com/api/historical/cm/bulkAndblock?symbol=OIL
+- Bulk block deal date filter - 
+https://www.nseindia.com/api/historical/cm/bulkAndblock?symbol=OIL&from=29-09-2023&to=29-12-2023
+
+https://www.nseindia.com/api/historical/cm/bulkAndblock?symbol=OIL&from=28-12-2023&to=29-12-2023
+
+- Periodic High Low Data Yearwise - https://www.nseindia.com/api/historical/cm/high-low?symbol=OIL&year=2023
+- Mothly High low data for period - https://www.nseindia.com/api/historical/cm/high-low?symbol=OIL&year=2023&month=12
+- 52 week high low - https://www.nseindia.com/api/historical/cm/high-low?symbol=OIL
+- All time high low data - https://www.nseindia.com/api/historical/cm/all-time-high-low?symbol=OIL
+- IPO - https://www.nseindia.com/api/ipo-current-issue
