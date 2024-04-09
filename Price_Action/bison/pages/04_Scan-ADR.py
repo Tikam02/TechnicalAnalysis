@@ -203,8 +203,8 @@ def main():
                                                        'Close': round(data['Close'].iloc[-1], 2),
                                                        'Volume': round(data['Volume'].iloc[-1], 2),
                                                        'ADR Value': round(adr_val.iloc[-1],2),
-                                                       'ADR %': round(adr.iloc[-1], 2),
-                                                       'Mod_ADR %': round(modified_adr.iloc[-1], 2),
+                                                       'ADR': round(adr.iloc[-1], 2),
+                                                       'Mod ADR': round(modified_adr.iloc[-1], 2),
                                                        'RSI': round(rsi.iloc[-1], 2)})
             except Exception as e:
                 print(f"Error processing {ticker}: {e}")
