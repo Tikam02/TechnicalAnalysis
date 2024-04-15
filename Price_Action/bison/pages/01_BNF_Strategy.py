@@ -6,6 +6,9 @@ import numpy as np
 import plotly.graph_objects as go
 import os
 
+one_year_ago = datetime.now() - timedelta(days=365)
+
+
 class StockAnalyzer:
     def __init__(self):
         pass
@@ -75,8 +78,8 @@ class StockAnalyzer:
                     declined_percentage_str = f"{'' if declined_percentage >= 0 else '-'}{abs(declined_percentage)}%"
                     positive_incline_percentage_str = f"{'' if positive_incline_percentage >= 0 else '-'}{abs(positive_incline_percentage)}%"
 
-                    # Append the results to the DataFrame
-                    results_df = results_df.append({
+                    # Assuming 'results_df' is your existing DataFrame and 'row_data' is the dictionary containing the data for the new row
+                    row_data = {
                         'Stock Symbol': ticker_symbol,
                         'Close Price': historical_data['Close'].iloc[-1],
                         f'SMA {sma1}': historical_data[f'SMA {sma1}'].iloc[-1],
@@ -91,7 +94,12 @@ class StockAnalyzer:
                         'Positive Incline Percentage': positive_incline_percentage_str,
                         '52 Week High': high_52_week,
                         '52 Week Low': low_52_week
-                    }, ignore_index=True)
+                    }
+
+                    # Convert the dictionary to a DataFrame and then concatenate it with the existing DataFrame
+                    new_row_df = pd.DataFrame([row_data])
+                    results_df = pd.concat([results_df, new_row_df], ignore_index=True)
+
 
             except Exception as e:
                 st.write(f"Error analyzing {ticker_symbol}: {e}")
@@ -106,7 +114,7 @@ if __name__ == "__main__":
     st.title('Stock Analyzer')
 
     # User input widgets
-    start_date = st.date_input("Select start date", datetime.now() - timedelta(days=365))
+    start_date = st.date_input("Select start date", one_year_ago)
     end_date = st.date_input("Select end date", datetime.now())
     uploaded_file = st.file_uploader("Upload CSV file", type=['csv'])
 
