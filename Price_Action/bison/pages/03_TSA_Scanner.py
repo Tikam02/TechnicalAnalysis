@@ -4,6 +4,10 @@ import pandas as pd
 import os
 from datetime import datetime, timedelta
 import ta
+import warnings
+
+# Ignore FutureWarnings
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 # Define the path to the data folder
 DATA_FOLDER = "./Data"
@@ -21,6 +25,7 @@ def apply_scanner_conditions(stock_data):
     x = 1.3 * lo # 30% above its 52-week low
     y = 0.75 * hi # 25% of its 52-week high
 
+
     # Calculate RSI
     stock_data['RSI'] = ta.momentum.rsi(stock_data['Close'])
 
@@ -31,19 +36,17 @@ def apply_scanner_conditions(stock_data):
         '50': stock_data['Close'].rolling(window=50).mean(),
     }
     
-    # Calculate conditions using precomputed rolling means
     conditions = (
-        (stock_data['Close'] > rolling_means['200']) &  ## close > 200 SMA
-        (rolling_means['150'] > rolling_means['200']) & ## 150 SMA > 200
-        (rolling_means['50'] > rolling_means['150']) &  ## 50 SMA > 150
-        (stock_data['Close'] > x) & ## close > 30% above 52 Week low
-        (stock_data['Close'] > y) & ## close > 25% above 52 week high
-        (stock_data['RSI'] >= 60) &  ## Close > RSI 60
-        (stock_data['Close'] > 1.25 * stock_data['Close'].shift(22)) & ## close > 25% Greater than 22 Days ago
-        (stock_data['Close'] > 1.5 * stock_data['Close'].shift(67)) &  ## close >  50% Greater than 67 Days ago
-        (stock_data['Close'] > 2.5 * stock_data['Close'].shift(126)) & ## close > 150% Greater than 126 Days ago
-        (stock_data['Volume'] * stock_data['Close'] > 3000000) ## Volume (close * volume) greater than 3,000,000
-    )
+    (stock_data['Close'].iloc[-1] > rolling_means['200'].iloc[-1]) &  ## close > 200 SMA
+    (rolling_means['150'].iloc[-1] > rolling_means['200'].iloc[-1]) & ## 150 SMA > 200
+    (rolling_means['50'].iloc[-1] > rolling_means['150'].iloc[-1]) &  ## 50 SMA > 150
+    (stock_data['Close'].iloc[-1] > x) & ## close > 30% above 52 Week low
+    (stock_data['Close'].iloc[-1] > y) & ## close > 25% above 52 week high
+    (stock_data['Close'].iloc[-1] > 1.25 * stock_data['Close'].shift(22).iloc[-1]) & ## close > 25% Greater than 22 Days ago
+    (stock_data['Close'].iloc[-1] > 1.5 * stock_data['Close'].shift(67).iloc[-1]) &  ## close >  50% Greater than 67 Days ago
+    (stock_data['Close'].iloc[-1] > 2.5 * stock_data['Close'].shift(126).iloc[-1]) ## close > 150% Greater than 126 Days ago
+   # (stock_data['Volume'].iloc[-1] * stock_data['Close'].iloc[-1] > 3000000) ## Volume (close * volume) greater than 3,000,000
+)
 
     return conditions
 
@@ -67,7 +70,7 @@ def main():
             try:
                 data = yf.download(ticker, start=start_date, end=end_date)
                 results = apply_scanner_conditions(data)
-                if results.any:  # Check if any row (axis=1) has any True value
+                if results.all():  # Check if any row (axis=1) has any True value
                     input_row = df[df['Symbol'] == ticker]
                     adr_value = input_row['ADR Value'].values[0]
                     adr_pct = input_row['ADR'].values[0]
@@ -93,7 +96,7 @@ def main():
             scanner_results.to_csv(os.path.join(DATA_FOLDER, output_file_name), index=False)
             st.success(f"Results saved to {output_file_name}")
         else:
-            st.write("No stocks found with ADR greater than specified threshold.")
+            st.write("No stocks found.")
 
 if __name__ == "__main__":
     main()
