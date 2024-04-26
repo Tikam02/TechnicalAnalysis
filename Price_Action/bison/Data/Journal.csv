@@ -3,4 +3,6 @@ Entry,AAVAS,1633.0,2024-04-08,7.0,1646.05,0.0,Bought without checking ADR and AD
 Exit,WIPRO,480.35,2024-04-08,30.0,570.47,481.59,"IT Sector has been down for almost a year and Wipro moving sideways, so it's always better to exit from loss making stocks for long time.",Booked Loss of 2660,./Data/img/WIPRO_2024-04-08_Entry_38b5066a-d810-47c1-89bf-5a916f88341e_image.jpg
 Entry,ONGC,281.9,2024-04-15,25.0,281.9,0.0,Israel - Iran war going on. On Monday jefferies announced that ONGC will grow 40% upside. Target Price 390 INR.,Catalyst,./Data/img/ONGC_2024-04-15_Entry_d0564f9b-bdcb-4c20-a08f-ecc14aef17b4_image.jpg
 Exit,AAVAS,1610.0,2024-04-25,7.0,1646.05,1610.01,"Recently I checked Risk to return ratio its zero and not good, so I exit from it.",,
-Exit,FILATEX,63.55,2024-04-25,120.0,64.82,63.55,"for last 2 quarters stock is not moving, consolidation phase.",None,
+Exit,FILATEX,63.55,2024-04-25,120.0,64.82,63.55,"for last 2 quarters stock is not moving, consolidation phase.",,
+Entry,EMUDHRA,746.5,2024-04-26,25.0,744.9,0.0,Checked CVar value and risk to return ratios are very good.,ADR and CVAR,./Data/img/EMUDHRA_2024-04-26_Entry_3754dc7e-6d62-467c-bd99-bdffb637c44d_image.jpg
+Entry,ONGC,283.7,2024-04-26,11.0,283.85,0.0,Averaged the ONGC Stock,Averaging,
