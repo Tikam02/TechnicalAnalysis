@@ -1,85 +1,106 @@
 import streamlit as st
-import pandas as pd
 import yfinance as yf
+import pandas as pd
 import os
+import datetime
+from Utils.tools import *
 
-# Function to fetch stock data
-def get_stock_data(stock_name):
-    stock = yf.Ticker(stock_name)
-    return stock.history(period="1d")
+st.set_page_config(layout="wide")
+DATA_DIR = "Data"
+PORTFOLIO_FILE = os.path.join(DATA_DIR, "portfolio.csv")
 
-# Function to calculate Average Price, Investment Amount, Return Since Bought, and Profit/Loss
-def calculate_metrics(buy_price, buy_quantity, current_price):
-    average_price = buy_price / buy_quantity
-    investment_amount = buy_price * buy_quantity
-    amount_gained = (current_price - average_price) * buy_quantity
-    percentage_gain = (amount_gained / investment_amount) * 100
-    profit_loss = current_price * buy_quantity - investment_amount
-    return average_price, investment_amount, percentage_gain, amount_gained, profit_loss
+def calculate_returns(stock_name, start_date, end_date, avg_buying_price, quantity):
+    try:
+        # Convert datetime.date objects to strings in the format expected by yf.download
+        start_date_str = start_date.strftime("%Y-%m-%d")
+        end_date_str = end_date.strftime("%Y-%m-%d")
+        
+        # Use yf.download to fetch stock data
+        data = yf.download(stock_name, start=start_date_str, end=end_date_str)
+        
+        # Check if data is empty
+        if data.empty:
+            st.error(f"No data available for {stock_name} between {start_date_str} and {end_date_str}. Please enter a valid stock symbol and date range.")
+            return None, None, None, None
+        
+        close_price = data['Close'].values[-1] # Use the last close price
+        invested_amount = avg_buying_price * quantity
+        returns = close_price * quantity
+        return_gains = returns - invested_amount
+        returns_percentage = ((returns - invested_amount) / invested_amount) * 100
 
-# Function to calculate ADR
-def calculate_ADR(data):
-    data['DailyHigh'] = data['High']
-    data['DailyLow'] = data['Low']
-    ADR_highlow = data['DailyHigh'] / data['DailyLow']
-    ADR_perc = ADR_highlow.rolling(window=14).apply(lambda x: (x.iloc[-1] / x.iloc[0]) - 1) * 100
-    return ADR_perc
+        return close_price, invested_amount, returns, returns_percentage,return_gains
+    except Exception as e:
+        st.error(f"Error fetching data for {stock_name} between {start_date_str} and {end_date_str}: {str(e)}")
+        return None, None, None, None
 
-# Function to save portfolio data to CSV
-def save_to_csv(portfolio_data):
-    portfolio_df = pd.DataFrame(portfolio_data)
-    portfolio_df.to_csv('portfolio.csv', index=False)
-
-# Function to read portfolio data from CSV
-def read_from_csv():
-    if 'portfolio.csv' in os.listdir():
-        return pd.read_csv('portfolio.csv')
-    else:
-        return pd.DataFrame(columns=['Stock Name', 'Buy Price', 'Buy Quantity'])
-
-# Main function
 def main():
-    st.title('Stock Portfolio Management')
+    st.title('Stock Portfolio Tracker')
+    
+    if not os.path.exists(DATA_DIR):
+        os.makedirs(DATA_DIR)
+    
+    total_invested_amount = 0
+    total_gains = 0
+    
+    
+    with st.sidebar:
+        st.header('Add Stock')
+        stock_name = st.text_input('Enter Stock Name:')
+        avg_buying_price = st.number_input('Enter Average Buying Price:')
+        quantity = st.number_input('Enter Quantity:', min_value=1)
+        
+        
+        # User input for start date
+        start_date = st.date_input('Enter Start Date:', datetime.date.today() - datetime.timedelta(days=365))
+        
+        # End date is always the current date
+        end_date = datetime.date.today()
+        
+        
+        if st.button('Add to Portfolio'):
+            if stock_name and avg_buying_price and quantity and start_date:
+                close_price, invested_amount, returns, returns_percentage,return_gains = calculate_returns(stock_name, start_date, end_date, avg_buying_price, quantity)
 
-    # Input section
-    st.subheader('Add Stock Details')
-    stock_name = st.text_input('Enter Stock Name:')
-    buy_price = st.number_input('Enter Buy Price:', min_value=0.01)
-    buy_quantity = st.number_input('Enter Buy Quantity:', min_value=1)
+                portfolio_data = {
+                    'Stock Name': stock_name,
+                    'Start Date': start_date,
+                    'End Date': end_date,
+                    'Average Buying Price': avg_buying_price,
+                    'Quantity': quantity,
+                    'Current Price': close_price,
+                    'Invested Amount': f"{invested_amount:.2f}",
+                    'Total Loss/Gain': f"{returns:.2f}",
+                    'Returns Loss/Gains': f"{return_gains:.2f}",
+                    'Returns Percentage': f"{returns_percentage:.2f}%"
+                }
+                
+                if os.path.exists(PORTFOLIO_FILE):
+                    df = pd.read_csv(PORTFOLIO_FILE)
+                else:
+                    df = pd.DataFrame()
 
-    # Read portfolio data
-    portfolio_data = read_from_csv()
+                df = pd.concat([df, pd.DataFrame([portfolio_data])], ignore_index=True)
+                df.to_csv(PORTFOLIO_FILE, index=False)
+                
+                st.success('Added to Portfolio!')
+    
+    # Display portfolio table
+    if os.path.exists(PORTFOLIO_FILE):
+        df = pd.read_csv(PORTFOLIO_FILE)
+        st.write('## Portfolio Summary')
+        st.write('### Portfolio')
+        st.write(df)
+        
+        total_invested_amount = df['Invested Amount'].sum()
+        total_gains = df['Total Loss/Gain'].sum()
+        
+        st.write('### Total Invested Amount:', total_invested_amount)
+        st.write('### Total Gains:', total_gains)
+        st.write('### Total Gain Percentage:', ((total_gains - total_invested_amount) / total_invested_amount) * 100)
+        
+        
 
-    # Display stock metrics
-    if stock_name:
-        stock_data = get_stock_data(stock_name)
-        if not stock_data.empty:
-            current_price = stock_data['Close'].iloc[-1]
-            average_price, investment_amount, percentage_gain, amount_gained, profit_loss = calculate_metrics(buy_price, buy_quantity, current_price)
-            adr = calculate_ADR(stock_data)
 
-            # Update portfolio data
-            portfolio_data = portfolio_data.append({'Stock Name': stock_name, 'Buy Price': buy_price, 'Buy Quantity': buy_quantity}, ignore_index=True)
-            save_to_csv(portfolio_data)
-
-            # Display metrics in a table
-            st.subheader('Stock Metrics')
-            metrics_data = {
-                'Metric': ['Average Price', 'Investment Amount', 'Return Since Bought (%)', 'Amount Gained', 'Profit/Loss'],
-                'Value': [average_price, investment_amount, percentage_gain, amount_gained, profit_loss]
-            }
-            metrics_df = pd.DataFrame(metrics_data)
-            st.write(metrics_df)
-
-            # Display ADR and other metrics
-            st.subheader('Other Metrics')
-            st.write(f"Current Market Price: {current_price}")
-            st.write(f"ADR (Average Daily Range): {adr.iloc[-1]}")
-            # Add more metrics as needed
-
-    # Display portfolio data
-    st.subheader('Portfolio')
-    st.write(portfolio_data)
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

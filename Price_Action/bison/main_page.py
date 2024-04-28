@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Add a title to your app
-st.markdown("<h1 style='text-align: center; color: black;'>B1s0n</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'>BISON</h1>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: black;'>Calm In The Storm</h2>", unsafe_allow_html=True)
 
 
