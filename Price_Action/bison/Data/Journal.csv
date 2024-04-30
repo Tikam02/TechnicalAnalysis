@@ -6,3 +6,7 @@ Exit,AAVAS,1610.0,2024-04-25,7.0,1646.05,1610.01,"Recently I checked Risk to ret
 Exit,FILATEX,63.55,2024-04-25,120.0,64.82,63.55,"for last 2 quarters stock is not moving, consolidation phase.",,
 Entry,EMUDHRA,746.5,2024-04-26,25.0,744.9,0.0,Checked CVar value and risk to return ratios are very good.,ADR and CVAR,./Data/img/EMUDHRA_2024-04-26_Entry_3754dc7e-6d62-467c-bd99-bdffb637c44d_image.jpg
 Entry,ONGC,283.7,2024-04-26,11.0,283.85,0.0,Averaged the ONGC Stock,Averaging,
+Exit,HDFCBANK,1531.0,2024-04-30,10.0,1505.95,1531.1,"Very Low ADR and ADR percentage. Not moving at all inspite of having good earnings results.
+ADR 2 ADR percengate 1",Catalyst,
+Exit,TRIDENT,39.54,2024-04-30,200.0,10.35,39.55,"Very Low ADR and ADR percentage.
+ADR 1.1 ADR percengate 2.9",Penny Stock in 2020,./Data/img/TRIDENT_2024-04-30_Exit_c602a07a-7794-4f86-9a79-53436620bd14_image.jpg
